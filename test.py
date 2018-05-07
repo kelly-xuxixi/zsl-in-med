@@ -1,5 +1,9 @@
 import sys
+import math
+
 from query2concepts import get_concepts
+from util import get_words_from_sentences
+from util import get_word_list_from_corpus
 from config import cfg
 
 
@@ -14,7 +18,19 @@ def run():
     # concept_rankings = rankings[concepts, :]
 
 
+def compute_idf(word):
+    file = open('corpus_words.txt', 'r')
+    content = file.read()
+    corpus_length = int(content.split('\n')[0])
+    word_list = content.split('\n')[1].split(' ')
+    print(corpus_length)
+    print(word_list)
+    return math.log(corpus_length / (word_list.count(word) + 1))
+
+
 def main():
+    # get_word_list_from_corpus()
+    # print(compute_idf('zz'))
     run()
 
 if __name__ == '__main__':

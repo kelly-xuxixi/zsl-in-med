@@ -1,6 +1,7 @@
 import numpy as np
 import math
 import sys
+from itertools import chain
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
 
@@ -10,8 +11,27 @@ def get_words_from_sentences(query):
     words = word_tokenize(query)
     words = list(filter(lambda t: (t != '.' and t != ','), words))
     words = list(filter(lambda t: t not in stopwords.words('english'), words))
-    print(words)
+    # print(words)
     return words
+
+
+def get_word_list_from_corpus():
+    corpus_path = ''
+    corpus_list = []
+    # for file in corpus_path:
+    #     corpus_list.append(open(file, 'r').read())
+    corpus_list.append('aa aa bb cc dd ee')
+    corpus_list.append('aa bb cc ff gg')
+    corpus_list.append('aa dd hh')
+    corpus_word_list = list(map(set, map(get_words_from_sentences, corpus_list)))
+    word_list = list(chain(*corpus_word_list))
+    print(word_list)
+    file = open('corpus_words.txt', 'w')
+    file.write(str(len(corpus_list)) + '\n')
+    for word in word_list:
+        file.write(word + ' ')
+    file.close()
+
 
 # based on https://stackoverflow.com/questions/2352181/how-to-use-a-dot-to-access-members-of-dictionary
 class Dict(dict):
