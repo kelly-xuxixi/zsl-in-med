@@ -1,5 +1,6 @@
 import sys
 import math
+import numpy as np
 
 from query2concepts import get_concepts
 from util import get_words_from_sentences
@@ -29,9 +30,19 @@ def compute_idf(word):
 
 
 def main():
+    aa = []
+    a = np.array([1, 2, 3])
+    b = np.array([4, 5, 6])
+    aa.append(a)
+    aa.append(b)
+    print(aa)
+    aa = np.stack(aa)
+    print(aa)
+    for line in aa:
+        print(line)
     # get_word_list_from_corpus()
     # print(compute_idf('zz'))
-    run()
+    # run()
 
 if __name__ == '__main__':
     main()
