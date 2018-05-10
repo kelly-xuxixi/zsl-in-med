@@ -62,10 +62,13 @@ def get_related_concepts(key_words):
     file = open('concepts.txt', 'r')
     lines = file.read()
     concepts = []
-    for line in lines:
-        concepts.append(line.strip().strip(','))
+    tokens = []
     nlp = spacy.load('en_core_web_md')
-    tokens = map(lambda t: nlp(u'%s' % t), concepts)
+    for line in lines:
+        line = line.strip().strip(',')
+        concepts.append(line)
+        tokens.append(nlp(u'%s' %t))
+    # tokens = map(lambda t: nlp(u'%s' % t), concepts)
     key_concept_similarity = []
     for key in key_words:
         sim = []
