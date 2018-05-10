@@ -89,5 +89,5 @@ def compute_idf(word):
     corpus_length = int(content.split('\n')[0])
     word_list = content.split('\n')[1].split(' ')
     # print(word, word_list.count(word))
-    return math.log(corpus_length / (word_list.count(word) + 1))
+    return math.log(float(corpus_length) / (word_list.count(word) + 1))
 
