@@ -78,8 +78,9 @@ def get_related_concepts(key_words):
             sim.append(token.similarity(key_token))
         print('similarity: ', len(sim), sim)
         most_sim = np.argsort(sim)[::-1]
-        print('most sim: ', most_sim[:100])
-        print(key, tokens[most_sim[:5]])
+        print('most sim: ', [(tokens[most_sim[i]], sim[most_sim[i]]) for i in range(5)])
+        # print('most sim: ', most_sim[:100])
+        # print(key, tokens[most_sim[:5]])
         key_concept_similarity.append(sim)
     return key_concept_similarity
 
