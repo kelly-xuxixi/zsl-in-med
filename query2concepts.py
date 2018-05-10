@@ -55,7 +55,6 @@ def get_key_words(word_list):
     sorted_words = sorted(stat.items(), key=operator.itemgetter(1), reverse=True)
     print(sorted_words)
     return sorted_words[:10]
-    # return [item[0] for item in sorted_words[:5]]
 
 
 def get_related_concepts(key_words):
@@ -66,21 +65,17 @@ def get_related_concepts(key_words):
     nlp = spacy.load('en_core_web_md')
     for line in lines:
         line = line.strip().strip(',')
-        print(line)
         concepts.append(line)
         tokens.append(nlp(u'%s' % line))
-    # tokens = map(lambda t: nlp(u'%s' % t), concepts)
     key_concept_similarity = []
     for key in key_words:
         sim = []
         key_token = nlp(u'%s' % key)
         for token in tokens:
             sim.append(token.similarity(key_token))
-        print('similarity: ', len(sim), sim)
+        # print('similarity: ', len(sim), sim)
         most_sim = np.argsort(sim)[::-1]
-        print('most sim: ', [(tokens[most_sim[i]], sim[most_sim[i]]) for i in range(5)])
-        # print('most sim: ', most_sim[:100])
-        # print(key, tokens[most_sim[:5]])
+        print(key, ' most sim: ', [(tokens[most_sim[i]], sim[most_sim[i]]) for i in range(5)])
         key_concept_similarity.append(sim)
     return key_concept_similarity
 
