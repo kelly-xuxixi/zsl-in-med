@@ -60,7 +60,7 @@ def get_key_words(word_list):
 
 def get_related_concepts(key_words):
     file = open('concepts.txt', 'r')
-    lines = file.read()
+    lines = file.readlines()
     concepts = []
     tokens = []
     nlp = spacy.load('en_core_web_md')
