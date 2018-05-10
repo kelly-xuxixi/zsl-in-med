@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e11abaee-18b7-46d6-adde-ce9babbe2bd3" name="Default" comment="" />
+    <list default="true" id="e11abaee-18b7-46d6-adde-ce9babbe2bd3" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/query2concepts.py" beforeDir="false" afterPath="$PROJECT_DIR$/query2concepts.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,8 +79,8 @@
       <file leaf-file-name="query2concepts.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/query2concepts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="66" column="36" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="36" />
+            <state relative-caret-position="167">
+              <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -584,8 +586,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/query2concepts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="66" column="36" selection-start-line="66" selection-start-column="22" selection-end-line="66" selection-end-column="36" />
+        <state relative-caret-position="167">
+          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
