@@ -40,6 +40,7 @@ def get_key_words(word_list):
         for word in word_importance.keys():
             word_importance[word] *= compute_idf(word)
             if cfg.use_log_in_word_importance:
+                print(word_importance[word])
                 word_importance[word] = math.log(word_importance[word])
     # sort word in accordance to word importance
     sorted_words = sorted(word_importance.items(), key=operator.itemgetter(1), reverse=True)
