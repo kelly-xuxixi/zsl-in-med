@@ -1,0 +1,30 @@
+Event name: Non-motorized vehicle repair
+
+Definition: One or more people make repairs to a non-motorized
+vehicle.
+
+Explication: Non-motorized vehicles are devices designed to transport
+humans and/or cargo, that are not powered by a motor but rather human
+effort, animal effort, or the environment. They can operate on land,
+(e.g. bicycles, wagons, skateboards), or water (e.g. sailboats,
+paddleboats, rowboats). Non-motorized land vehicles generally have at
+least two wheels but may use one or more wheels. Non-motorized
+vehicles without wheels include sleds, sail boats and
+surfboards. Footwear with wheels such as rollerblades or rollerskates
+are not considered vehicles. Parts of the vehicles, such as the chain
+on a bicycle, might be partially or completely removed for cleaning or
+adjusting.
+
+Evidential description:
+
+ scene: indoors or outdoors in a workshop, garage, or driveway
+
+ objects/people: vehicle(bicycle, unicycle, tricycle, carriage,
+ pedi-cab, etc), tools and equipment (wrenches, chains, tires, grease,
+ cloths, etc)
+
+ activities: : repairing, adjusting parts of vehicle, using tools to
+ move/modify parts of vehicle
+
+ audio: sound of tools, narration of the repair process; sounds
+ emanating from the vehicle itself

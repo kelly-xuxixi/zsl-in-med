@@ -1,0 +1,49 @@
+Event name: Parking a vehicle
+
+Definition: One or more people navigate a vehicle into a designated
+space
+
+Explication: Personal and passenger vehicles such as cars, trucks,
+motorcycles, boats, and planes are typically kept in a designated
+space while not in use. The driver of the vehicle must navigate the
+vehicle going either forward or reverse into the designated
+space. Personal land vehicles are most often parked in a garage
+(either attached or adjacent to one's house), in a paved, stone, or
+dirt drive-way next to one's house, on the street where vehicles are
+closely aligned parallel to the curb, or in a parking lot where
+painted lines indicate where one's vehicle is to be parked.
+
+Many retail establishments, stores, malls, and other businesses have
+parking lots where customers and employees may park their vehicles
+while shopping or working. These typically contained painted lines
+and/or painted parking curbs that indicate a space where patrons are
+supposed to park their vehicles. Cities and towns often have paid
+parking spaces either metered on-street parking or in a parking garage
+or lot. Users of these parking spaces and facilities must pay in order
+to park their vehicles. Water vehicles such as boats and jet skis are
+often parked at a dock -- a human made structure spanning between land
+and a body of water. Water vehicles are navigated into a designated
+space at a dock, often between wood pylons, and are typically secured
+to the dock with ropes. When parking a helicopter, it may be flown to
+and landed in its parking space. When parking a fixed-wing aircraft,
+the aircraft is normally stopped and shut down near its parking space
+and then pushed into position (small light airplanes may be pushed
+entirely by hand, but in the case of larger aircraft a towbar is
+attached to the axle of the nose wheel or tail wheel and the towbar
+may be pushed/pulled by hand or may be attached to a tractor sort of
+vehicle if the plane is too heavy to be moved by hand.
+
+Evidential description:
+
+ scene: indoors (home garage, parking garage, aircraft hanger) or
+ outdoors (street, parking lot, dock, anchor mooring)
+
+ objects/people: vehicles (cars, bicycles, motorcycles, helicopters,
+ boats, planes etc.) pilots, drivers, keys, mirrors, signs, valets,
+ ropes, towbar, tractor/tug
+
+ activities: opening a vehicle door, turning off a vehicle, turning on
+ a vehicle alarm, maneuvering vehicle
+
+ audio: vehicle accelerating, braking, doors closing, vehicle alarm
+ activating

@@ -1,6 +1,7 @@
 import numpy as np
 import math
 import sys
+import os
 from itertools import chain
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
@@ -16,13 +17,15 @@ def get_words_from_sentences(query):
 
 
 def get_word_list_from_corpus():
-    corpus_path = ''
+    corpus_path = 'metadata'
+    files = os.listdir(corpus_path)
     corpus_list = []
-    # for file in corpus_path:
-    #     corpus_list.append(open(file, 'r').read())
-    corpus_list.append('aa aa bb cc dd ee')
-    corpus_list.append('aa bb cc ff gg')
-    corpus_list.append('aa dd hh')
+    for file in files:
+        print(file)
+        corpus_list.append(open(os.path.join(corpus_path, file), 'r').read())
+    # corpus_list.append('aa aa bb cc dd ee')
+    # corpus_list.append('aa bb cc ff gg')
+    # corpus_list.append('aa dd hh')
     corpus_word_list = list(map(set, map(get_words_from_sentences, corpus_list)))
     word_list = list(chain(*corpus_word_list))
     print(word_list)

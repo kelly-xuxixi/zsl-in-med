@@ -1,0 +1,33 @@
+Event name: Tailgating
+
+Definition: A group of people party in a parking area, usually before
+a concert or sports event
+
+Explication: Tailgating, or a tailgate party, is a social event that
+occurs around the open tailgate or trunk of a vehicle. Activities at a
+tailgate party include eating grilled food and snacks, drinking
+beverages (especially alcoholic beverages), listening to music, and
+playing games (especially lawn games such as cornhole, horseshoes,
+etc.). Tailgating typically occurs in the parking lot of a sporting
+event or music concert, and usually occurs prior to and during the
+event itself. Typical beverages consumed include beer and mixed
+alcoholic drinks. Popular food consists of standard picnic staples,
+including grilled meat such as hamburgers and hotdogs, cold salads
+(potato salad, macaroni salad, and coleslaw) and snacks such as potato
+chips and pretzels. Tailgating is especially popular prior to
+professional football games, but also occurs prior to other sporting
+events and music concerts.
+
+Evidential description:
+
+ scene: indoors (arena, auditorium) or outdoors (parking lot, field)
+
+ objects/people: cars, grills, food, beverages, cooking utensils,
+ napkins, plates, eating utensils, cups, sports equipment (ball,
+ helmet, bat, team uniform, mitts), portable shelter
+
+ activities: cooking food, eating food, serving beverages, drinking
+ beverages, throwing a ball, dancing, doing cheers
+
+ audio: background music, grill sizzling, stadium announcer, cooking
+ narration
