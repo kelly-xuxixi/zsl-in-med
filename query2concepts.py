@@ -76,8 +76,9 @@ def get_related_concepts(key_words):
         key_token = nlp(u'%s' % key)
         for token in tokens:
             sim.append(token.similarity(key_token))
+        print(sim)
         most_sim = np.argsort(sim)[::-1]
-        print(key, tokens[most_sim][:5])
+        print(key, tokens[most_sim[:5]])
         key_concept_similarity.append(sim)
     return key_concept_similarity
 
