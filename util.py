@@ -10,8 +10,10 @@ from nltk.corpus import stopwords
 def get_words_from_sentences(query):
     query = query.lower()
     words = word_tokenize(query)
-    words = list(filter(lambda t: (t != '.' and t != ','), words))
+    words = list(filter(lambda t: (t != '.' and t != ',' and t != ':'), words))
     words = list(filter(lambda t: t not in stopwords.words('english'), words))
+    words = list(map(lambda t: t.split('/'), words))
+    words = list(chain(*words))
     # print(words)
     return words
 
