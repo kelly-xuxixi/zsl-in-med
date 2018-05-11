@@ -64,6 +64,8 @@ def get_related_concepts_with_word2vec(key_words):
             if cfg.use_log_in_concept_selection:
                 sim.append(token.similarity(key_token)) # how to maximize larger ones and minimize smaller ones?
             else:
+                if token.similarity(key_token) == 0:
+                    print(token, ' has no vector')
                 sim.append(token.similarity(key_token))
         most_sim = np.argsort(sim)[::-1]
         print(key, ' most sim: ', [(concept_tokens[most_sim[i]], sim[most_sim[i]]) for i in range(5)])
