@@ -54,6 +54,7 @@ def get_related_concepts_with_word2vec(key_words):
     # transfer concepts to word2vec tokens
     for line in lines:
         line = line.strip().strip(',')
+        line = line.replace('_', ' ')
         concept_tokens.append(nlp(u'%s' % line))
     # compute key_concept matrix
     key_concept_similarity = []
