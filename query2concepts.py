@@ -3,6 +3,7 @@ import operator
 from util import get_words_from_sentences
 from config import cfg
 from nltk.corpus import wordnet as wn
+from nltk.corpus import wordnet_ic
 import spacy
 import numpy as np
 
@@ -73,6 +74,7 @@ def get_related_concepts_with_word2vec(key_words):
 
 
 def get_related_concepts_with_wordnet(key_words):
+    brown_ic = wordnet_ic.ic('ic-brown.dat')
     file = open('imagenet_1000.txt', 'r')
     lines = file.readlines()
     concept_synsets = []
@@ -92,7 +94,7 @@ def get_related_concepts_with_wordnet(key_words):
         sim = []
         key_synset = get_synset_from_word(key)
         for synset in concept_synsets:
-            sim.append(synset.wup_similarity(key_synset))
+            sim.append(synset.res_similarity(key_synset, brown_ic))
         most_sim = np.argsort(sim)[::-1]
         print(key, ' most sim: ', [(concept_synsets[most_sim[i]], sim[most_sim[i]]) for i in range(5)])
         key_concept_similarity.append(sim)
