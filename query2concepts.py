@@ -63,10 +63,8 @@ def get_related_concepts_with_word2vec(key_words):
         key_token = nlp(u'%s' % key)
         for token in concept_tokens:
             if cfg.use_log_in_concept_selection:
-                sim.append(token.similarity(key_token)) # how to maximize larger ones and minimize smaller ones?
+                sim.append(token.similarity(key_token))  # how to maximize larger ones and minimize smaller ones?
             else:
-                if token.similarity(key_token) == 0:
-                    print(token, ' has no vector')
                 sim.append(token.similarity(key_token))
         most_sim = np.argsort(sim)[::-1]
         print(key, ' most sim: ', [(concept_tokens[most_sim[i]], sim[most_sim[i]]) for i in range(5)])
@@ -75,7 +73,47 @@ def get_related_concepts_with_word2vec(key_words):
 
 
 def get_related_concepts_with_wordnet(key_words):
-    return []
+    file = open('imagenet_1000.txt', 'r')
+    lines = file.readlines()
+    concept_synsets = []
+    # transfer concepts to wordnet synsets
+    for line in lines:
+        id = line.split(' ')[0][1:]
+        if id[0] == '0':
+            id = id[1:]
+        concept_synsets.append(get_synset_from_id(id))
+    file = open('places365.txt')
+    lines = file.readlines()
+    for line in lines:
+        concept_synsets.append(get_synset_from_word(line.strip()))
+    # compute key_concept matrix
+    key_concept_similarity = []
+    for key in key_words:
+        sim = []
+        for synset in concept_synsets:
+            sim.append(synset.similarity(key))
+        most_sim = np.argsort(sim)[::-1]
+        print(key, ' most sim: ', [(concept_synsets[most_sim[i]], sim[most_sim[i]]) for i in range(5)])
+        key_concept_similarity.append(sim)
+    return key_concept_similarity
+
+
+def get_synset_from_word(word):
+    synsets = wn.synsets(word)
+    if len(synsets) > 0:
+        return synsets[0]
+    else:
+        print(word + ' has no synsets')
+        return wn.synsets['nothing'][0]
+
+
+def get_synset_from_id(id):
+    try:
+        synset = wn._synset_from_pos_and_offset('n', id)
+        return synset
+    except:
+        print(id)
+        return wn.synsets['nothing'][0]
 
 
 def process_synonyms(word_list):

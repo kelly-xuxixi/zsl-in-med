@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e11abaee-18b7-46d6-adde-ce9babbe2bd3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imagenet_1000.txt" beforeDir="false" afterPath="$PROJECT_DIR$/imagenet_1000.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/places365.txt" beforeDir="false" afterPath="$PROJECT_DIR$/places365.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/query2concepts.py" beforeDir="false" afterPath="$PROJECT_DIR$/query2concepts.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="config.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="162">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -44,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query2concepts.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="query2concepts.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query2concepts.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="64" column="48" lean-forward="true" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+            <state relative-caret-position="1710">
+              <caret line="99" selection-start-line="99" selection-end-line="99" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -58,19 +60,27 @@
       </file>
       <file leaf-file-name="imagenet_1000.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imagenet_1000.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="982" column="17" lean-forward="true" selection-start-line="982" selection-start-column="17" selection-end-line="982" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="places365.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/places365.txt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="356" column="13" lean-forward="true" selection-start-line="356" selection-start-column="13" selection-end-line="356" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="concepts.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/concepts.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="1001" column="14" selection-start-line="1001" selection-end-line="1001" selection-end-column="14" />
+            <state relative-caret-position="346">
+              <caret line="1364" column="10" lean-forward="true" selection-start-line="1000" selection-end-line="1364" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -97,6 +107,8 @@
       <find>read</find>
       <find>log</find>
       <find>print</find>
+      <find>except</find>
+      <find>airplane_cabin</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,8 +136,10 @@
         <option value="$PROJECT_DIR$/concepts.txt" />
         <option value="$PROJECT_DIR$/util.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/imagenet_1000.txt" />
+        <option value="$PROJECT_DIR$/places365.txt" />
         <option value="$PROJECT_DIR$/query2concepts.py" />
+        <option value="$PROJECT_DIR$/config.py" />
       </list>
     </option>
   </component>
@@ -549,33 +563,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imagenet_1000.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/places365.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
+    <entry file="file://$PROJECT_DIR$/concepts.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+        <state relative-caret-position="346">
+          <caret line="1364" column="10" lean-forward="true" selection-start-line="1000" selection-end-line="1364" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/concepts.txt">
+    <entry file="file://$PROJECT_DIR$/places365.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="1001" column="14" selection-start-line="1001" selection-end-line="1001" selection-end-column="14" />
+        <state relative-caret-position="202">
+          <caret line="356" column="13" lean-forward="true" selection-start-line="356" selection-start-column="13" selection-end-line="356" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imagenet_1000.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="982" column="17" lean-forward="true" selection-start-line="982" selection-start-column="17" selection-end-line="982" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/query2concepts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="64" column="48" lean-forward="true" selection-start-line="64" selection-start-column="48" selection-end-line="64" selection-end-column="48" />
+        <state relative-caret-position="1710">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
