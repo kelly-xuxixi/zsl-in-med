@@ -104,16 +104,16 @@ def get_synset_from_word(word):
         return synsets[0]
     else:
         print(word + ' has no synsets')
-        return wn.synsets['nothing'][0]
+        return wn.synsets('nothing')[0]
 
 
 def get_synset_from_id(id):
     try:
-        synset = wn._synset_from_pos_and_offset('n', id)
+        synset = wn._synset_from_pos_and_offset('n', int(id))
         return synset
     except:
         print(id)
-        return wn.synsets['nothing'][0]
+        return wn.synsets('nothing')[0]
 
 
 def process_synonyms(word_list):
