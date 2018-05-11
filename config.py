@@ -7,5 +7,5 @@ cfg.use_tfidf = True
 cfg.unify_synonyms = True
 cfg.use_log_in_word_importance = True
 # get concepts
-cfg.use_word2vec = False
+cfg.use_word2vec = True
 cfg.use_log_in_concept_selection = False
