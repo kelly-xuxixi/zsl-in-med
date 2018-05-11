@@ -12,9 +12,6 @@ def get_matrix_from_query():
     key_concept_similarity = np.array(key_concept_similarity)
     np.savetxt('key_importance.txt', key_importance)
     np.savetxt('key_concept_similarity.txt', key_concept_similarity)
-    # print('key_importance: \n', key_importance)
-    # print('key_concept_similarity: \n', key_concept_similarity)
-    # concept_rankings = rankings[concepts, :]
 
 
 def main():
