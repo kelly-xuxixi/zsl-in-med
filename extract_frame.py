@@ -6,6 +6,7 @@ frame_root = '/m/data/med/frame'
 
 
 def extract_frame(video_name):
+    print(video_name)
     video_path = os.path.join(video_root, video_name)
     frame_path = video_name[0:video_name.find('.')]
     frame_folder_path = os.path.join(frame_root, frame_path)
@@ -30,7 +31,7 @@ def main():
     files = os.listdir(video_root)
     for file in files:
         if file.endswith('.mp4'):
-        extract_frame(file)
+            extract_frame(file)
 
 
 if __name__ == '__main__':
