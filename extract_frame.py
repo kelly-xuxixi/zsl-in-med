@@ -18,10 +18,15 @@ def extract_frame(video_name):
         pass
 
     to_read = 0
-    videogen = skvideo.io.vread(video_path)
+    try:
+        videogen = skvideo.io.vread(video_path)
+    except:
+        file = open('error.txt', 'a')
+        file.write(video_name + '\n')
+        return
     videometadata = skvideo.io.ffprobe(video_path)
     frame_rate = videometadata['video']['@r_frame_rate']
-    frame_rate = int(frame_rate.split('/')[0])
+    frame_rate = int(frame_rate.split('/')[0]) / int(frame_rate.split('/')[1])
     num_frames = np.int(videometadata['video']['@nb_frames'])
     print('  total frames: ', num_frames)
     print('  frame rate: ', frame_rate)
