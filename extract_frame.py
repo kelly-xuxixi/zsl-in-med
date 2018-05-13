@@ -1,8 +1,8 @@
 import cv2
 import os
 
-video_root = ''
-frame_root = ''
+video_root = '/m/data/med/video'
+frame_root = '/m/data/med/frame'
 
 
 def extract_frame(video_name):
@@ -29,7 +29,7 @@ def extract_frame(video_name):
 def main():
     files = os.listdir(video_root)
     for file in files:
-        # if file.endswith(''):
+        if file.endswith('.mp4'):
         extract_frame(file)
 
 
