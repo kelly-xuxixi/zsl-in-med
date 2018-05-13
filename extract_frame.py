@@ -1,5 +1,7 @@
 import cv2
 import os
+import skvideo.io
+import numpy as np
 
 video_root = '/m/data/med/video'
 frame_root = '/m/data/med/frame'
@@ -15,17 +17,15 @@ def extract_frame(video_name):
     except OSError:
         pass
 
-    cap = cv2.VideoCapture(video_path)
     to_read = 0
-    total_frame = cap.get(cv2.CAP_PROP_FRAME_COUNT)
-    fps = cap.get(cv2.CAP_PROP_FPS)
-    print(cap.isOpened(), ' ', video_path, ' ', total_frame, ' ', fps)
-    while to_read < total_frame:
-        ret, frame = cap.read()
-        if ret is True:
-            cv2.imwrite(os.path.join(frame_folder_path, 'img_' + str(int(to_read)) + '.jpg'), frame)
-        to_read = to_read + 2 * fps
-        cap.set(1, to_read)
+    videogen = skvideo.io.vread(video_path)
+    videometadata = skvideo.io.ffprobe(video_path)
+    frame_rate = videometadata['video']['@avg_frame_rate']
+    num_frames = np.int(videometadata['video']['@nb_frames'])
+    while to_read < num_frames:
+        frame = cv2.cvtColor(videogen[to_read], cv2.COLOR_BGR2RGB)
+        cv2.imwrite("frame_" + str(to_read) + ".jpg", frame)
+        to_read = to_read + 2 * frame_rate
 
 
 def main():
