@@ -17,9 +17,9 @@ def extract_frame(video_name):
 
     cap = cv2.VideoCapture(video_path)
     to_read = 0
-    total_frame = cap.get(cv2.CAP_PROP_FRAME_COUNT)
-    fps = cap.get(cv2.CAP_PROP_FPS)
-    print(total_frame, ' ', fps)
+    total_frame = cap.get(cv2.CV_CAP_PROP_FRAME_COUNT)
+    fps = cap.get(cv2.CV_CAP_PROP_FPS)
+    print(video_path, ' ', total_frame, ' ', fps)
     while to_read < total_frame:
         ret, frame = cap.read()
         if ret is True:
