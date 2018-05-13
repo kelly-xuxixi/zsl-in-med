@@ -23,6 +23,7 @@ def extract_frame(video_name):
     except:
         file = open('error.txt', 'a')
         file.write(video_name + '\n')
+        file.close()
         return
     videometadata = skvideo.io.ffprobe(video_path)
     frame_rate = videometadata['video']['@r_frame_rate']
