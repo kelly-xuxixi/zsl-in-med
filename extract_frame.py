@@ -13,7 +13,7 @@ def extract_frame(video_name):
     video_path = os.path.join(video_root, video_name)
     frame_path = video_name[0:video_name.find('.')]
     frame_folder_path = os.path.join(frame_root, frame_path)
-    if os.path.exists(frame_folder_path):
+    if os.path.exists(frame_folder_path) and os.listdir(frame_folder_path):
         return
     try:
         os.mkdir(frame_folder_path)
