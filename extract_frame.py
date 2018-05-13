@@ -20,7 +20,7 @@ def extract_frame(video_name):
     to_read = 0
     videogen = skvideo.io.vread(video_path)
     videometadata = skvideo.io.ffprobe(video_path)
-    frame_rate = videometadata['video']['@avg_frame_rate']
+    frame_rate = videometadata['video']['@r_frame_rate']
     frame_rate = int(frame_rate.split('/')[0])
     num_frames = np.int(videometadata['video']['@nb_frames'])
     print(num_frames, frame_rate)
