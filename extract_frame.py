@@ -25,7 +25,7 @@ def extract_frame(video_name):
     num_frames = np.int(videometadata['video']['@nb_frames'])
     while to_read < num_frames:
         frame = cv2.cvtColor(videogen[to_read], cv2.COLOR_BGR2RGB)
-        cv2.imwrite("frame_" + str(to_read) + ".jpg", frame)
+        cv2.imwrite(os.path.join(frame_folder_path, 'frame_' + str(to_read) + ".jpg", frame))
         to_read = to_read + 2 * frame_rate
 
 
