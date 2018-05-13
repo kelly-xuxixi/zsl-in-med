@@ -1,5 +1,6 @@
 import cv2
 import os
+import sys
 import skvideo.io
 import numpy as np
 
@@ -12,6 +13,8 @@ def extract_frame(video_name):
     video_path = os.path.join(video_root, video_name)
     frame_path = video_name[0:video_name.find('.')]
     frame_folder_path = os.path.join(frame_root, frame_path)
+    if os.path.exists(frame_folder_path):
+        return
     try:
         os.mkdir(frame_folder_path)
     except OSError:
@@ -39,7 +42,14 @@ def extract_frame(video_name):
 
 def main():
     files = os.listdir(video_root)
-    for file in files:
+    files.sort()
+    try:
+        start = int(sys.argv[1])
+        end = int(sys.argv[2])
+    except:
+        start = 0
+        end = len(files)
+    for file in files[start:end]:
         if file.endswith('.mp4'):
             extract_frame(file)
 
