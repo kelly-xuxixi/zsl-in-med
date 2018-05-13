@@ -21,6 +21,7 @@ def extract_frame(video_name):
     videogen = skvideo.io.vread(video_path)
     videometadata = skvideo.io.ffprobe(video_path)
     frame_rate = videometadata['video']['@avg_frame_rate']
+    frame_rate = int(frame_rate.split('/')[0])
     num_frames = np.int(videometadata['video']['@nb_frames'])
     while to_read < num_frames:
         frame = cv2.cvtColor(videogen[to_read], cv2.COLOR_BGR2RGB)
