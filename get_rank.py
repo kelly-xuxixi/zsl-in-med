@@ -35,4 +35,4 @@ if __name__ == '__main__':
         all_ranks.append(rank)
     all_ranks = np.vstack(all_ranks)
     print(all_ranks.shape)
-    np.savetxt('all_ranks.txt')
+    np.savetxt('all_ranks.txt', all_ranks)
