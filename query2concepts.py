@@ -130,7 +130,7 @@ def process_synonyms(word_list):
         for syn in syns:
             str_syns.append(str(syn)[8:-7])
         syn_dict[word] = str_syns
-    print(syn_dict)
+    # print(syn_dict)
     # replace words with their synonyms
     for i in range(len(word_list)):
         for j in range(len(word_list)):
