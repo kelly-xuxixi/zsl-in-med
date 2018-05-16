@@ -157,11 +157,12 @@ def filter_keywords(sorted_words):
     for word in sorted_words:
         flag = True
         if cfg.delete_not_nones and wn.synsets(word[0])[0].pos() != 'n':
+            print(word + 'deleted for not none')
             flag = False
         if cfg.delete_ambivalent_words and len(wn.synsets(word[0])) > 10:
             flag = False
+            print(word + 'deleted for ambivalent')
         if cfg.set_threshold and word[1] < cfg.threshold:
-            flag = False
             break
         if flag:
             key_words.append(word)
