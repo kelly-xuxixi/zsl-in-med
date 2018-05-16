@@ -178,7 +178,7 @@ def select_concepts(concepts, key_concept_similarity):
         if np.max(key_concept_similarity[:, col]) < cfg.concept_threshold:
             key_concept_similarity[:, col] = 0
         else:
-            print(concepts[col] + 'selected')
+            print(str(concepts[col]) + 'selected')
             key_concept_similarity[:, col] = key_concept_similarity[:, col] * (1 + key_concept_similarity[:, col])
     return key_concept_similarity
 
