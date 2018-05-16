@@ -14,4 +14,4 @@ cfg.threshold = 2.1
 cfg.use_word2vec = True
 cfg.use_square_in_concept_selection = False
 cfg.select_concepts = True
-cfg.concept_threshold = 0.4
+cfg.concept_threshold = 0.45

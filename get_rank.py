@@ -38,6 +38,9 @@ if __name__ == '__main__':
     files.sort()
     all_ranks = []
     probs = np.loadtxt('mean_probs.txt')
+    probs_bg = np.loadtxt('mean_probs.txt')
+    probs = np.vstack(probs, probs_bg)
+    print('probs shape: ' + str(probs))
     for i in range(20):
         assert files[i*2].endswith('similarity.txt') and files[i*2+1].endswith('importance.txt')
         rank = get_rank(os.path.join(stats_root, files[i*2+1]), os.path.join(stats_root, files[i*2]))
