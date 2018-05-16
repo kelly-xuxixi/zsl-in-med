@@ -72,6 +72,8 @@ def get_related_concepts_with_word2vec(key_words):
         most_sim = np.argsort(sim)[::-1]
         print(key, ' most sim: ', [(concept_tokens[most_sim[i]], sim[most_sim[i]]) for i in range(5)])
         key_concept_similarity.append(sim)
+    if cfg.select_concepts:
+        key_concept_similarity = select_concepts(concept_tokens, key_concept_similarity)
     return key_concept_similarity
 
 
@@ -103,6 +105,8 @@ def get_related_concepts_with_wordnet(key_words):
         most_sim = np.argsort(sim)[::-1]
         print(key, ' most sim: ', [(concept_synsets[most_sim[i]], sim[most_sim[i]]) for i in range(5)])
         key_concept_similarity.append(sim)
+    if cfg.select_concepts:
+        key_concept_similarity = select_concepts(concept_synsets, key_concept_similarity)
     return key_concept_similarity
 
 
@@ -166,6 +170,17 @@ def filter_keywords(sorted_words):
         except:
             print(str(word) + 'error')
     return key_words
+
+
+def select_concepts(concepts, key_concept_similarity):
+    key_concept_similarity = np.array(key_concept_similarity)
+    for col in range(key_concept_similarity.shape[1]):
+        if np.max(key_concept_similarity[:, col]) < cfg.concept_threshold:
+            key_concept_similarity[:, col] = 0
+        else:
+            print(concepts[col] + 'selected')
+            key_concept_similarity[:, col] = key_concept_similarity[:, col] * (1 + key_concept_similarity[:, col])
+    return key_concept_similarity
 
 
 def compute_idf(word):
