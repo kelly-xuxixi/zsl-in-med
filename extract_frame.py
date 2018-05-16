@@ -4,8 +4,8 @@ import sys
 import skvideo.io
 import numpy as np
 
-video_root = '/m/data/med/video'
-frame_root = '/m/data/med/frame'
+video_root = '/m/data/med/video_bg'
+frame_root = '/m/data/med/frame_bg'
 
 
 def extract_frame(video_name):
@@ -48,7 +48,7 @@ def extract_frame(video_name):
 
 
 def main():
-    if sys.argv[1] == 'reprocess':
+    if sys.argv[1] and sys.argv[1] == 'reprocess':
         files = open('error.txt', 'r').readlines()
         print(len(files))
     else:
