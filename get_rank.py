@@ -13,6 +13,7 @@ def get_rank(importance_path, similarity_path):
         key_importance.shape = (len(key_importance), 1)
     except TypeError:
         key_importance.shape = (1, 1)
+        key_concept_similarity.shape = (1, len(key_concept_similarity))
     key_importance = np.transpose(key_importance)
     tran_probs = np.transpose(probs)
     result = np.dot(key_importance, key_concept_similarity)
