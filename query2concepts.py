@@ -152,16 +152,19 @@ def filter_keywords(sorted_words):
     key_words = []
     for word in sorted_words:
         flag = True
-        if cfg.delete_not_nones and wn.synsets(word[0])[0].pos() != 'n':
-            print(str(word) + 'deleted for not none')
-            flag = False
-        if cfg.delete_ambivalent_words and len(wn.synsets(word[0])) > 10:
-            flag = False
-            print(str(word) + 'deleted for ambivalent')
-        if cfg.set_threshold and word[1] < cfg.threshold:
-            break
-        if flag:
-            key_words.append(word)
+        try:
+            if cfg.delete_not_nones and wn.synsets(word[0])[0].pos() != 'n':
+                print(str(word) + 'deleted for not none')
+                flag = False
+            if cfg.delete_ambivalent_words and len(wn.synsets(word[0])) > 10:
+                flag = False
+                print(str(word) + 'deleted for ambivalent')
+            if cfg.set_threshold and word[1] < cfg.threshold:
+                break
+            if flag:
+                key_words.append(word)
+        except:
+            print(str(word) + 'error')
     return key_words
 
 
