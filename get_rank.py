@@ -41,7 +41,7 @@ if __name__ == '__main__':
     files.sort()
     all_ranks = []
     probs = np.loadtxt('mean_probs.txt')
-    probs_bg = np.loadtxt('mean_probs.txt')
+    probs_bg = np.loadtxt('mean_probs_bg.txt')
     probs = np.vstack([probs, probs_bg])
     print('probs shape: ' + str(probs.shape))
     for i in range(20):
