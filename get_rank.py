@@ -23,7 +23,10 @@ def get_rank(importance_path, similarity_path):
     print(top_ids[:10])
     video_name = open('event_video_list.txt', 'r').readlines()
     for id in top_ids[:10]:
-        print(video_name[id].strip())
+        if id < 2991:
+            print(video_name[id].strip())
+        else:
+            print('bg video')
         util.print_prob(probs[id], './synset.txt')
     print('\n')
     return result
