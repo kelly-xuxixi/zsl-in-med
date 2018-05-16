@@ -149,21 +149,22 @@ def process_synonyms(word_list):
 
 
 def filter_keywords(sorted_words):
-    key_words = {}
+    key_words = []
     cfg.delete_not_nones = False
     cfg.delete_ambivalent_words = True
     cfg.set_threshold = True
     cfg.threshold = 2.3
-    for word in sorted_words.keys():
+    for word in sorted_words:
         flag = True
-        if cfg.delete_not_nones and wn.synsets(word)[0].pos() != 'n':
+        print(word[0], word[1])
+        if cfg.delete_not_nones and wn.synsets(word[0])[0].pos() != 'n':
             flag = False
-        if cfg.delete_ambivalent_words and len(wn.synsets(word)) > 10:
+        if cfg.delete_ambivalent_words and len(wn.synsets(word[0])) > 10:
             flag = False
-        if cfg.set_threshold and sorted_words[word] < cfg.threshold:
+        if cfg.set_threshold and word[1] < cfg.threshold:
             flag = False
         if flag:
-            key_words[word] = sorted_words[word]
+            key_words.append(word)
     return key_words
 
 
