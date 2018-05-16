@@ -1,6 +1,7 @@
 import numpy as np
 import util
 import os
+import sys
 
 
 def get_rank(importance_path, similarity_path):
@@ -24,7 +25,10 @@ def get_rank(importance_path, similarity_path):
 
 
 if __name__ == '__main__':
-    stats_root = './stats'
+    try:
+        stats_root = sys.argv[1]
+    except:
+        stats_root = './stats'
     files = os.listdir(stats_root)
     files.sort()
     all_ranks = []
