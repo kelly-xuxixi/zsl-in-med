@@ -154,7 +154,7 @@ def filter_keywords(sorted_words):
     cfg.delete_ambivalent_words = True
     cfg.set_threshold = True
     cfg.threshold = 2.3
-    for word in sorted_words:
+    for word in sorted_words.keys():
         flag = True
         if cfg.delete_not_nones and wn.synsets(word)[0].pos() != 'n':
             flag = False
@@ -165,7 +165,6 @@ def filter_keywords(sorted_words):
         if flag:
             key_words[word] = sorted_words[word]
     return key_words
-
 
 
 def compute_idf(word):
