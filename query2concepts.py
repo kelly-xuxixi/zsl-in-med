@@ -64,8 +64,8 @@ def get_related_concepts_with_word2vec(key_words):
         sim = []
         key_token = nlp(u'%s' % key)
         for token in concept_tokens:
-            if cfg.use_log_in_concept_selection:
-                sim.append(token.similarity(key_token))  # how to maximize larger ones and minimize smaller ones?
+            if cfg.use_square_in_concept_selection:
+                sim.append(np.square(token.similarity(key_token)))
             else:
                 sim.append(token.similarity(key_token))
         most_sim = np.argsort(sim)[::-1]
@@ -121,7 +121,7 @@ def get_synset_from_id(id):
 
 
 def process_synonyms(word_list):
-    print('processing synonyms')
+    # print('processing synonyms')
     # get synonyms for each word
     syn_dict = {}
     for word in word_list:
@@ -139,7 +139,7 @@ def process_synonyms(word_list):
             if x == y:
                 continue
             if x in syn_dict[y] or y in syn_dict[x]:
-                print(x, y)
+                # print(x, y)
                 word_list[j] = x
     return word_list
 

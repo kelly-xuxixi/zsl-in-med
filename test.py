@@ -10,8 +10,8 @@ def get_matrix_from_query(query_path, event_name):
     key_importance, key_concept_similarity = get_key_and_concepts(query_info)
     key_importance = np.array(key_importance)
     key_concept_similarity = np.array(key_concept_similarity)
-    np.savetxt(os.path.join('./stats', event_name + '_key_importance.txt'), key_importance)
-    np.savetxt(os.path.join('./stats', event_name + '_key_concept_similarity.txt'), key_concept_similarity)
+    np.savetxt(os.path.join('./stats_wn', event_name + '_key_importance.txt'), key_importance)
+    np.savetxt(os.path.join('./stats_wn', event_name + '_key_concept_similarity.txt'), key_concept_similarity)
 
 
 def main():
