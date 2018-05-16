@@ -15,8 +15,7 @@ def get_key_and_concepts(query):
     key_words_and_probs = get_key_words(word_list)
     key_words = [item[0] for item in key_words_and_probs]
     key_words_importance = [item[1] for item in key_words_and_probs]
-    print(key_words_and_probs)
-    print(key_words)
+    print(len(key_words), key_words_and_probs)
     # get similarity matrix between key and concepts
     if cfg.use_word2vec:
         key_concept_sim = get_related_concepts_with_word2vec(key_words)
@@ -44,7 +43,9 @@ def get_key_words(word_list):
                 word_importance[word] = math.log(word_importance[word] + 1)
     # sort word in accordance to word importance
     sorted_words = sorted(word_importance.items(), key=operator.itemgetter(1), reverse=True)
-    return sorted_words[:10]
+    # return sorted_words[:10]
+    key_words = filter_keywords(sorted_words)
+    return key_words
 
 
 def get_related_concepts_with_word2vec(key_words):
@@ -145,6 +146,26 @@ def process_synonyms(word_list):
                 # print(x, y)
                 word_list[j] = x
     return word_list
+
+
+def filter_keywords(sorted_words):
+    key_words = {}
+    cfg.delete_not_nones = False
+    cfg.delete_ambivalent_words = True
+    cfg.set_threshold = True
+    cfg.threshold = 2.3
+    for word in sorted_words:
+        flag = True
+        if cfg.delete_not_nones and wn.synsets(word)[0].pos() != 'n':
+            flag = False
+        if cfg.delete_ambivalent_words and len(wn.synsets(word)) > 10:
+            flag = False
+        if cfg.set_threshold and sorted_words[word] < cfg.threshold:
+            flag = False
+        if flag:
+            key_words[word] = sorted_words[word]
+    return key_words
+
 
 
 def compute_idf(word):
