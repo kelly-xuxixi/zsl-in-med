@@ -95,7 +95,10 @@ def get_related_concepts_with_wordnet(key_words):
         sim = []
         key_synset = get_synset_from_word(key)
         for synset in concept_synsets:
-            sim.append(synset.res_similarity(key_synset, brown_ic))
+            try:
+                sim.append(synset.res_similarity(key_synset, brown_ic))
+            except:
+                sim.append(0.0)
         most_sim = np.argsort(sim)[::-1]
         print(key, ' most sim: ', [(concept_synsets[most_sim[i]], sim[most_sim[i]]) for i in range(5)])
         key_concept_similarity.append(sim)
