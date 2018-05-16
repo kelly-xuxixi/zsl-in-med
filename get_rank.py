@@ -9,7 +9,10 @@ def get_rank(importance_path, similarity_path):
     key_importance = np.loadtxt(importance_path)
     key_concept_similarity = np.loadtxt(similarity_path)
     print(key_importance.shape)
-    key_importance.shape = (len(key_importance), 1)
+    try:
+        key_importance.shape = (len(key_importance), 1)
+    except TypeError:
+        key_importance.shape = (1, 1)
     key_importance = np.transpose(key_importance)
     tran_probs = np.transpose(probs)
     result = np.dot(key_importance, key_concept_similarity)
