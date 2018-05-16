@@ -156,13 +156,13 @@ def filter_keywords(sorted_words):
     cfg.threshold = 2.3
     for word in sorted_words:
         flag = True
-        print(word[0], word[1])
         if cfg.delete_not_nones and wn.synsets(word[0])[0].pos() != 'n':
             flag = False
         if cfg.delete_ambivalent_words and len(wn.synsets(word[0])) > 10:
             flag = False
         if cfg.set_threshold and word[1] < cfg.threshold:
             flag = False
+            break
         if flag:
             key_words.append(word)
     return key_words
