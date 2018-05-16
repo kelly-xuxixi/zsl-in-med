@@ -39,7 +39,7 @@ if __name__ == '__main__':
     all_ranks = []
     probs = np.loadtxt('mean_probs.txt')
     probs_bg = np.loadtxt('mean_probs.txt')
-    probs = np.vstack(probs, probs_bg)
+    probs = np.vstack([probs, probs_bg])
     print('probs shape: ' + str(probs))
     for i in range(20):
         assert files[i*2].endswith('similarity.txt') and files[i*2+1].endswith('importance.txt')

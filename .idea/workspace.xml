@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e11abaee-18b7-46d6-adde-ce9babbe2bd3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-    </list>
+    <list default="true" id="e11abaee-18b7-46d6-adde-ce9babbe2bd3" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,23 +32,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="get_rank.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="get_rank.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/get_rank.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="232">
+              <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="E036.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/metadata/E036.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -88,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="query2concepts.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="query2concepts.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/query2concepts.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -161,9 +150,9 @@
         <option value="$PROJECT_DIR$/get_mAP.py" />
         <option value="$PROJECT_DIR$/extract_frame.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/get_rank.py" />
         <option value="$PROJECT_DIR$/query2concepts.py" />
         <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/get_rank.py" />
       </list>
     </option>
   </component>
@@ -679,12 +668,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/get_rank.py">
+    <entry file="file://$PROJECT_DIR$/query2concepts.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="14" column="37" lean-forward="true" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="264">
+          <caret line="88" column="23" lean-forward="true" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -696,12 +685,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/query2concepts.py">
+    <entry file="file://$PROJECT_DIR$/get_rank.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="88" column="23" lean-forward="true" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
+        <state relative-caret-position="232">
+          <caret line="40" column="40" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
           <folding>
-            <element signature="e#0#11#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
