@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e11abaee-18b7-46d6-adde-ce9babbe2bd3" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/query2concepts.py" beforeDir="false" afterPath="$PROJECT_DIR$/query2concepts.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,8 +58,8 @@
       <file leaf-file-name="get_rank.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/get_rank.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="324">
+              <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -172,10 +171,10 @@
         <option value="$PROJECT_DIR$/metadata/E022.txt" />
         <option value="$PROJECT_DIR$/get_mAP.py" />
         <option value="$PROJECT_DIR$/extract_frame.py" />
-        <option value="$PROJECT_DIR$/get_rank.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/query2concepts.py" />
+        <option value="$PROJECT_DIR$/get_rank.py" />
       </list>
     </option>
   </component>
@@ -354,7 +353,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1875" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -713,8 +711,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/get_rank.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="324">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
