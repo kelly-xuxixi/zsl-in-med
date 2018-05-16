@@ -150,10 +150,6 @@ def process_synonyms(word_list):
 
 def filter_keywords(sorted_words):
     key_words = []
-    cfg.delete_not_nones = False
-    cfg.delete_ambivalent_words = True
-    cfg.set_threshold = True
-    cfg.threshold = 2.3
     for word in sorted_words:
         flag = True
         if cfg.delete_not_nones and wn.synsets(word[0])[0].pos() != 'n':
