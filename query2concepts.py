@@ -175,10 +175,11 @@ def filter_keywords(sorted_words):
 def select_concepts(concepts, key_concept_similarity):
     key_concept_similarity = np.array(key_concept_similarity)
     for col in range(key_concept_similarity.shape[1]):
-        if np.max(key_concept_similarity[:, col]) < cfg.concept_threshold:
+        max_sim = np.max(key_concept_similarity[:, col])
+        if max_sim < cfg.concept_threshold:
             key_concept_similarity[:, col] = 0
         else:
-            print(str(concepts[col]) + 'selected')
+            print(str(concepts[col]) + ' selected ' + str(max_sim))
             key_concept_similarity[:, col] = key_concept_similarity[:, col] * (1 + key_concept_similarity[:, col])
     return key_concept_similarity
 
