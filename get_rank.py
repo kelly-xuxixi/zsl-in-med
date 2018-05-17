@@ -2,6 +2,7 @@ import numpy as np
 import util
 import os
 import sys
+from config import cfg
 
 
 def get_rank(importance_path, similarity_path):
@@ -41,8 +42,9 @@ if __name__ == '__main__':
     files.sort()
     all_ranks = []
     probs = np.loadtxt('mean_probs.txt')
-    probs_bg = np.loadtxt('mean_probs_bg.txt')
-    probs = np.vstack([probs, probs_bg])
+    if cfg.eval_with_bg:
+        probs_bg = np.loadtxt('mean_probs_bg.txt')
+        probs = np.vstack([probs, probs_bg])
     print('probs shape: ' + str(probs.shape))
     for i in range(20):
         assert files[i*2].endswith('similarity.txt') and files[i*2+1].endswith('importance.txt')
