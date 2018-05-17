@@ -38,7 +38,9 @@ def get_key_words(word_list):
     # calculate word distinctiveness in corpus
     if cfg.use_tfidf:
         for word in word_importance.keys():
-            word_importance[word] *= compute_idf(word)
+            idf = compute_idf(word)
+            print(word + ' frequency: ' + str(word_importance[word]) + ' idf: ' + str(idf))
+            word_importance[word] *= idf
             if cfg.use_log_in_word_importance:
                 word_importance[word] = math.log(word_importance[word] + 1)
     # sort word in accordance to word importance
@@ -129,7 +131,7 @@ def get_synset_from_id(id):
 
 
 def process_synonyms(word_list):
-    # print('processing synonyms')
+    print('processing synonyms')
     # get synonyms for each word
     syn_dict = {}
     for word in word_list:
@@ -147,7 +149,7 @@ def process_synonyms(word_list):
             if x == y:
                 continue
             if x in syn_dict[y] or y in syn_dict[x]:
-                # print(x, y)
+                print('synonyms: ' + x + ' ' + y)
                 word_list[j] = x
     return word_list
 
@@ -158,11 +160,11 @@ def filter_keywords(sorted_words):
         flag = True
         try:
             if cfg.delete_not_nones and wn.synsets(word[0])[0].pos() != 'n':
-                print(str(word) + 'deleted for not none')
+                print(str(word) + 'deleted for not noun')
                 flag = False
             if cfg.delete_ambivalent_words and len(wn.synsets(word[0])) > 10:
                 flag = False
-                print(str(word) + 'deleted for ambivalent')
+                print(str(word) + 'deleted for being ambivalent')
             if cfg.set_threshold and word[1] < cfg.threshold:
                 break
             if flag:
@@ -189,4 +191,5 @@ def compute_idf(word):
     content = file.read()
     corpus_length = int(content.split('\n')[0])
     word_list = content.split('\n')[1].split(' ')
-    return math.log(float(corpus_length) / (word_list.count(word) + 1))
+    idf = math.log(float(corpus_length) / (word_list.count(word) + 1))
+    return idf
