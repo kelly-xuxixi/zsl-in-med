@@ -11,7 +11,7 @@ cfg.delete_ambivalent_words = True   #
 cfg.set_threshold = True
 cfg.threshold = 2.1
 # get concepts
-cfg.use_word2vec = True   #
+cfg.use_word2vec = False   #
 cfg.use_square_in_concept_selection = False
 cfg.select_concepts = True   #
 cfg.concept_threshold = 0.45
