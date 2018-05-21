@@ -107,6 +107,9 @@ def get_related_concepts_with_wordnet(key_words):
         most_sim = np.argsort(sim)[::-1]
         print(key, ' most sim: ', [(concept_synsets[most_sim[i]], sim[most_sim[i]]) for i in range(5)])
         key_concept_similarity.append(sim)
+    key_concept_similarity = np.array(key_concept_similarity)
+    if np.isinf(key_concept_similarity).any():
+        print("!!!!!!!!!!!!!!!!!!!")
     if cfg.select_concepts:
         key_concept_similarity = select_concepts(concept_synsets, key_concept_similarity)
     return key_concept_similarity
