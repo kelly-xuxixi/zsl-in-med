@@ -3,6 +3,7 @@ import util
 import os
 import sys
 from config import cfg
+import scipy.io as sio
 
 
 def get_rank(importance_path, similarity_path):
@@ -22,6 +23,9 @@ def get_rank(importance_path, similarity_path):
     result = result[0]
     top_ids = np.argsort(result)[::-1]
     print(top_ids[:10])
+    y_true = sio.loadmat('/m/data/med/metadata/y_train.mat')
+    y_true = np.array(y_true['y_train'])
+    print(y_true[top_ids[:10]])
     video_name = open('event_video_list.txt', 'r').readlines()
     for id in top_ids[:10]:
         if id < 2991:

@@ -1,0 +1,702 @@
+probs shape: (2991, 1365)
+('./con_60/E021.txt_key_importance.txt', './con_60/E021.txt_key_concept_similarity.txt')
+(4,)
+[1047 2054 2738  272  208 1577 1020 2425   91 1764]
+HVC217006
+('Top1: ', 'mountain bike, all-terrain bike, off-roader', 0.7109841787340966)
+('Top5: ', [('mountain bike, all-terrain bike, off-roader', 0.7109841787340966), ('bicycle-built-for-two, tandem bicycle, tandem', 0.05752433090476023), ('moped', 0.01749873737079807), ('creek', 0.016255296638174363), ('mountain_path', 0.01375082933805319)])
+HVC606104
+('Top1: ', 'mountain bike, all-terrain bike, off-roader', 0.6869877597147768)
+('Top5: ', [('mountain bike, all-terrain bike, off-roader', 0.6869877597147768), ('unicycle, monocycle', 0.13650498683141035), ('bicycle-built-for-two, tandem bicycle, tandem', 0.04046323004348034), ('stretcher', 0.011335064198316435), ('crash helmet', 0.010725013258210807)])
+HVC936417
+('Top1: ', 'golfcart, golf cart', 0.6998386921356238)
+('Top5: ', [('golfcart, golf cart', 0.6998386921356238), ('lawn mower, mower', 0.16148796789298103), ('jeep, landrover', 0.020677243205768765), ('croquet ball', 0.018569971073846017), ('racket, racquet', 0.011199748007763834)])
+HVC086883
+('Top1: ', 'disk brake, disc brake', 0.49779205079903477)
+('Top5: ', [('disk brake, disc brake', 0.49779205079903477), ('tarantula', 0.0921490840454453), ('moped', 0.086781583467382), ('mountain bike, all-terrain bike, off-roader', 0.0668433248065412), ('thresher, thrasher, threshing machine', 0.028976758846920348)])
+HVC074129
+('Top1: ', 'mountain bike, all-terrain bike, off-roader', 0.2448376956122831)
+('Top5: ', [('mountain bike, all-terrain bike, off-roader', 0.2448376956122831), ('tricycle, trike, velocipede', 0.2017874109944136), ('unicycle, monocycle', 0.1291256802124453), ('bicycle-built-for-two, tandem bicycle, tandem', 0.10430827068871465), ('moped', 0.09487709462449982)])
+HVC260508
+('Top1: ', 'mountain bike, all-terrain bike, off-roader', 0.3232044010867412)
+('Top5: ', [('mountain bike, all-terrain bike, off-roader', 0.3232044010867412), ('unicycle, monocycle', 0.2626786368446119), ('moped', 0.12286837498322711), ('tricycle, trike, velocipede', 0.08468183124546158), ('limousine, limo', 0.08179134096358132)])
+HVC212962
+('Top1: ', 'mountain bike, all-terrain bike, off-roader', 0.44589514036973316)
+('Top5: ', [('mountain bike, all-terrain bike, off-roader', 0.44589514036973316), ('unicycle, monocycle', 0.22917521038713554), ('bicycle-built-for-two, tandem bicycle, tandem', 0.12034621105218928), ('tricycle, trike, velocipede', 0.039369227461672075), ('moped', 0.02653094307606807)])
+HVC810867
+('Top1: ', 'mountain bike, all-terrain bike, off-roader', 0.29552929221906443)
+('Top5: ', [('mountain bike, all-terrain bike, off-roader', 0.29552929221906443), ('disk brake, disc brake', 0.11693567055838437), ('crash helmet', 0.08776893536229512), ('bicycle-built-for-two, tandem bicycle, tandem', 0.0570296484881758), ('moped', 0.054959258138710124)])
+HVC034270
+('Top1: ', 'golfcart, golf cart', 0.5678921372940143)
+('Top5: ', [('golfcart, golf cart', 0.5678921372940143), ('Model T', 0.06969331681951492), ('minibus', 0.059685643354896456), ('moving van', 0.05658459503320046), ('minivan', 0.0429762084580337)])
+HVC376978
+('Top1: ', 'golfcart, golf cart', 0.5625935047864914)
+('Top5: ', [('golfcart, golf cart', 0.5625935047864914), ('grand piano, grand', 0.06869035966407794), ('pool table, billiard table, snooker table', 0.05032036818850499), ('stretcher', 0.031006918297722362), ('Model T', 0.024436161351891663)])
+
+
+('./con_60/E022.txt_key_importance.txt', './con_60/E022.txt_key_concept_similarity.txt')
+(5,)
+[ 389  313  350 1284  600  328 2299 2484 1975  338]
+HVC116273
+('Top1: ', 'washer, automatic washer, washing machine', 0.778122716297706)
+('Top5: ', [('washer, automatic washer, washing machine', 0.778122716297706), ('dishwasher, dish washer, dishwashing machine', 0.06586216971161775), ('space heater', 0.02219789129681885), ('refrigerator, icebox', 0.009632227771198813), ('vacuum, vacuum cleaner', 0.009054086294632006)])
+HVC098024
+('Top1: ', 'dishwasher, dish washer, dishwashing machine', 0.5538060088409111)
+('Top5: ', [('dishwasher, dish washer, dishwashing machine', 0.5538060088409111), ('acoustic guitar', 0.0532238551939372), ('pick, plectrum, plectron', 0.02197125140883145), ('mousetrap', 0.013259815265519137), ('basenji', 0.01222447689733599)])
+HVC103343
+('Top1: ', 'dishwasher, dish washer, dishwashing machine', 0.5238738087090579)
+('Top5: ', [('dishwasher, dish washer, dishwashing machine', 0.5238738087090579), ('mousetrap', 0.05801393008071252), ('shopping basket', 0.0321052030406215), ('shopping cart', 0.023855942153287204), ('refrigerator, icebox', 0.021918217990208756)])
+HVC237037
+('Top1: ', 'microwave, microwave oven', 0.4494867669876728)
+('Top5: ', [('microwave, microwave oven', 0.4494867669876728), ('kitchen', 0.09846681196193909), ('moving van', 0.054032077656293434), ('ambulance', 0.03869835524586517), ('police van, police wagon, paddy wagon, patrol wagon, wagon, black Maria', 0.03728691999626011)])
+HVC147083
+('Top1: ', 'restaurant_kitchen', 0.23654937578572166)
+('Top5: ', [('restaurant_kitchen', 0.23654937578572166), ('galley', 0.1055845460957951), ('stove', 0.09414731594733894), ('kitchen', 0.078305810276005), ('refrigerator, icebox', 0.03641822439870642)])
+HVC101857
+('Top1: ', 'dishwasher, dish washer, dishwashing machine', 0.2644193575418155)
+('Top5: ', [('dishwasher, dish washer, dishwashing machine', 0.2644193575418155), ('mousetrap', 0.08283691124857537), ('kitchen', 0.036651203030649934), ('stove', 0.028095754217896944), ('restaurant_kitchen', 0.02724589693942952)])
+HVC762491
+('Top1: ', 'restaurant, eating house, eating place, eatery', 0.5465892715190973)
+('Top5: ', [('restaurant, eating house, eating place, eatery', 0.5465892715190973), ('pub/indoor', 0.035115901459983986), ('tobacco shop, tobacconist shop, tobacconist', 0.02149082495903897), ('restaurant', 0.019335780140967405), ('food_court', 0.01854550096698093)])
+HVC833145
+('Top1: ', 'restaurant, eating house, eating place, eatery', 0.5498702921663764)
+('Top5: ', [('restaurant, eating house, eating place, eatery', 0.5498702921663764), ('pub/indoor', 0.03005949977277537), ('tobacco shop, tobacconist shop, tobacconist', 0.02759394178077667), ('restaurant', 0.016410773761438985), ('bar', 0.01544458749408634)])
+HVC555672
+('Top1: ', 'microwave, microwave oven', 0.18035234666495928)
+('Top5: ', [('microwave, microwave oven', 0.18035234666495928), ('stove', 0.14523986789946147), ('espresso maker', 0.07232299962755417), ('web site, website, internet site, site', 0.06859617510779394), ('dishwasher, dish washer, dishwashing machine', 0.041710977570776755)])
+HVC102717
+('Top1: ', 'plate rack', 0.3866656683385372)
+('Top5: ', [('plate rack', 0.3866656683385372), ('dishwasher, dish washer, dishwashing machine', 0.3529893465053577), ('ping-pong ball', 0.023129648457352932), ('waffle iron', 0.016434075086950682), ('face powder', 0.010939441563095897)])
+
+
+('./con_60/E023.txt_key_importance.txt', './con_60/E023.txt_key_concept_similarity.txt')
+(11,)
+[2699 2639  371  175 1339 2166  237 1407 2986  703]
+HVC922124
+('Top1: ', 'dogsled, dog sled, dog sleigh', 0.5278151302947279)
+('Top5: ', [('dogsled, dog sled, dog sleigh', 0.5278151302947279), ('Eskimo dog, husky', 0.18535899860987565), ('Siberian husky', 0.048776098571866704), ('malamute, malemute, Alaskan malamute', 0.036033367392232514), ('alp', 0.01606915749350435)])
+HVC905862
+('Top1: ', 'worm fence, snake fence, snake-rail fence, Virginia fence', 0.66915333122015)
+('Top5: ', [('worm fence, snake fence, snake-rail fence, Virginia fence', 0.66915333122015), ('sorrel', 0.2005124288800289), ('racecourse', 0.03364568900124141), ('park bench', 0.016520977454501918), ('lumbermill, sawmill', 0.007329181363172665)])
+HVC107859
+('Top1: ', 'Old English sheepdog, bobtail', 0.14769182509961398)
+('Top5: ', [('Old English sheepdog, bobtail', 0.14769182509961398), ('standard poodle', 0.12506073359823364), ('miniature poodle', 0.10722068753393339), ('toy poodle', 0.10147148901843607), ('Border collie', 0.03325083474109389)])
+HVC068679
+('Top1: ', 'miniature schnauzer', 0.15823086381091603)
+('Top5: ', [('miniature schnauzer', 0.15823086381091603), ('Yorkshire terrier', 0.080105095120546), ('silky terrier, Sydney silky', 0.06108128143075321), ('Dandie Dinmont, Dandie Dinmont terrier', 0.05889881267544946), ('wire-haired fox terrier', 0.04327294724134845)])
+HVC239929
+('Top1: ', 'malamute, malemute, Alaskan malamute', 0.1990329657564871)
+('Top5: ', [('malamute, malemute, Alaskan malamute', 0.1990329657564871), ('Eskimo dog, husky', 0.1980103803992582), ('Siberian husky', 0.06665561923000496), ('wire-haired fox terrier', 0.02608633542145829), ('Newfoundland, Newfoundland dog', 0.019193972539293707)])
+HVC677107
+('Top1: ', 'Maltese dog, Maltese terrier, Maltese', 0.26908199745339517)
+('Top5: ', [('Maltese dog, Maltese terrier, Maltese', 0.26908199745339517), ('toy poodle', 0.0819353277024978), ('kuvasz', 0.07357513323798533), ('Great Pyrenees', 0.043072060650835436), ('miniature poodle', 0.02856035805304297)])
+HVC082312
+('Top1: ', 'kennel/outdoor', 0.2432601401230746)
+('Top5: ', [('kennel/outdoor', 0.2432601401230746), ('Doberman, Doberman pinscher', 0.11685871329063957), ('black-and-tan coonhound', 0.04827579285561764), ('Rottweiler', 0.04608395968885556), ('kelpie', 0.03889784940418481)])
+HVC243437
+('Top1: ', 'dalmatian, coach dog, carriage dog', 0.2552721953268499)
+('Top5: ', [('dalmatian, coach dog, carriage dog', 0.2552721953268499), ('dogsled, dog sled, dog sleigh', 0.0549384863874972), ('stretcher', 0.04700623533248694), ('German short-haired pointer', 0.038424901220585325), ('English setter', 0.03758570983368877)])
+HVC999266
+('Top1: ', 'Walker hound, Walker foxhound', 0.12154626651582393)
+('Top5: ', [('Walker hound, Walker foxhound', 0.12154626651582393), ('Italian greyhound', 0.10012520968236706), ('basenji', 0.08976990560239012), ('English foxhound', 0.06323036246679047), ('Saluki, gazelle hound', 0.04908509010618383)])
+HVC158418
+('Top1: ', 'Staffordshire bullterrier, Staffordshire bull terrier', 0.11422086354683746)
+('Top5: ', [('Staffordshire bullterrier, Staffordshire bull terrier', 0.11422086354683746), ('miniature pinscher', 0.09819006344134157), ('schipperke', 0.07087512220658193), ('Doberman, Doberman pinscher', 0.06733283510600979), ('Labrador retriever', 0.06627685796808112)])
+
+
+('./con_60/E024.txt_key_importance.txt', './con_60/E024.txt_key_concept_similarity.txt')
+(5,)
+[1105 1759 2310  387 2379 1144 1348 2688 2787 1292]
+HVC224123
+('Top1: ', 'elevator/door', 0.13472817839982992)
+('Top5: ', [('elevator/door', 0.13472817839982992), ('phone_booth', 0.12942369693281272), ('elevator_lobby', 0.06639721958736818), ('corridor', 0.05167046368856413), ('dressing_room', 0.04840020011649288)])
+HVC376204
+('Top1: ', 'digital clock', 0.1387916793609212)
+('Top5: ', [('digital clock', 0.1387916793609212), ('cellular telephone, cellular phone, cellphone, cell, mobile phone', 0.08565270686440565), ('digital watch', 0.06536670070920902), ('acoustic guitar', 0.06316301715973198), ('stopwatch, stop watch', 0.051293865735671365)])
+HVC767991
+('Top1: ', 'frying pan, frypan, skillet', 0.12115025351248572)
+('Top5: ', [('frying pan, frypan, skillet', 0.12115025351248572), ('wok', 0.0968223727763603), ('dial telephone, dial phone', 0.0958394913110276), ('joystick', 0.0849884930465765), ('stove', 0.06095908093197709)])
+HVC115535
+('Top1: ', 'barbershop', 0.17066031666067633)
+('Top5: ', [('barbershop', 0.17066031666067633), ('cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM', 0.10526705650693696), ('barber chair', 0.09308587227259642), ('pay-phone, pay-station', 0.06259534524186798), ('punching bag, punch bag, punching ball, punchball', 0.03715715312358478)])
+HVC793837
+('Top1: ', 'electric guitar', 0.12549007997089184)
+('Top5: ', [('electric guitar', 0.12549007997089184), ('radio, wireless', 0.11578997751140767), ('cassette player', 0.08711651121848263), ('tape player', 0.08124254408591826), ('joystick', 0.06273254085265632)])
+HVC229386
+('Top1: ', 'hook, claw', 0.12976033195111625)
+('Top5: ', [('hook, claw', 0.12976033195111625), ('disk brake, disc brake', 0.09035551760138737), ('corkscrew, bottle screw', 0.06584748011944747), ('dial telephone, dial phone', 0.061744164346061926), ('stove', 0.05314328519248024)])
+HVC240661
+('Top1: ', 'cellular telephone, cellular phone, cellphone, cell, mobile phone', 0.052597081438908656)
+('Top5: ', [('cellular telephone, cellular phone, cellphone, cell, mobile phone', 0.052597081438908656), ('bubble', 0.040988564776677276), ('hair spray', 0.03945725107745778), ('sunglass', 0.037530794927489855), ('binoculars, field glasses, opera glasses', 0.034592384562617345)])
+HVC918833
+('Top1: ', 'hard disc, hard disk, fixed disk', 0.057923203494423224)
+('Top5: ', [('hard disc, hard disk, fixed disk', 0.057923203494423224), ('dial telephone, dial phone', 0.056074369463009324), ("loupe, jeweler's loupe", 0.05068831344049786), ('gong, tam-tam', 0.050590655773246326), ('magnetic compass', 0.04196640460764877)])
+HVC950363
+('Top1: ', 'Polaroid camera, Polaroid Land camera', 0.27689151971013937)
+('Top5: ', [('Polaroid camera, Polaroid Land camera', 0.27689151971013937), ('iPod', 0.08775246451706928), ('digital clock', 0.0562331250052163), ('cellular telephone, cellular phone, cellphone, cell, mobile phone', 0.047874216658278276), ('modem', 0.04086922724268839)])
+HVC237219
+('Top1: ', 'parking_lot', 0.05044867666196422)
+('Top5: ', [('parking_lot', 0.05044867666196422), ('street sign', 0.02901001190259884), ('wing', 0.027687881789504366), ('snowplow, snowplough', 0.027344810865542968), ('pay-phone, pay-station', 0.02423677326699143)])
+
+
+('./con_60/E025.txt_key_importance.txt', './con_60/E025.txt_key_concept_similarity.txt')
+(3,)
+[1333 2703 1273  315 1334 1239 2747  451 1800 2509]
+HVC239534
+('Top1: ', 'boxing_ring', 0.21694917244406367)
+('Top5: ', [('boxing_ring', 0.21694917244406367), ('arena/performance', 0.11340623110512794), ('parallel bars, bars', 0.08709183010062026), ('balance beam, beam', 0.07210077525501436), ('horizontal bar, high bar', 0.04931301621129803)])
+HVC923496
+('Top1: ', 'necklace', 0.09873947359763126)
+('Top5: ', [('necklace', 0.09873947359763126), ('chain', 0.07549620314563785), ('corkscrew, bottle screw', 0.06896375735383335), ('buckle', 0.03148476059237494), ('bookshop, bookstore, bookstall', 0.022585855523407774)])
+HVC236420
+('Top1: ', 'ringneck snake, ring-necked snake, ring snake', 0.05958449008903699)
+('Top5: ', [('ringneck snake, ring-necked snake, ring snake', 0.05958449008903699), ('knot', 0.051834390658504245), ('green mamba', 0.04628788824299012), ('walking stick, walkingstick, stick insect', 0.043333953615299174), ('vine snake', 0.03605702870356088)])
+HVC098664
+('Top1: ', 'sweatshirt', 0.09302416287175944)
+('Top5: ', [('sweatshirt', 0.09302416287175944), ('trench coat', 0.08891296566273355), ('chain', 0.07421984659787695), ('cloak', 0.07399110298052797), ('barbershop', 0.050609075614136585)])
+HVC239566
+('Top1: ', 'boxing_ring', 0.042171564601112606)
+('Top5: ', [('boxing_ring', 0.042171564601112606), ('balance beam, beam', 0.03772224740809872), ('arena/performance', 0.034014175877322556), ('parallel bars, bars', 0.03189883278641251), ('swimming trunks, bathing trunks', 0.02748131941327648)])
+HVC234527
+('Top1: ', 'amusement_park', 0.13950826904990457)
+('Top5: ', [('amusement_park', 0.13950826904990457), ('stage/outdoor', 0.06277898446106436), ('restaurant_patio', 0.05502017125995322), ('fireboat', 0.0429623965934628), ('harbor', 0.042285802086222575)])
+HVC939000
+('Top1: ', 'cleaver, meat cleaver, chopper', 0.051911466264198826)
+('Top5: ', [('cleaver, meat cleaver, chopper', 0.051911466264198826), ('punching bag, punch bag, punching ball, punchball', 0.03910333067553173), ('chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour', 0.0363919396851854), ('honeycomb', 0.027640482541371497), ('hatchet', 0.020004014486874024)])
+HVC128502
+('Top1: ', 'arena/performance', 0.042222202242555795)
+('Top5: ', [('arena/performance', 0.042222202242555795), ('street', 0.041613575988776574), ('martial_arts_gym', 0.040622386222707974), ('ice_skating_rink/outdoor', 0.038931445220441674), ('bazaar/outdoor', 0.03585666320117298)])
+HVC405929
+('Top1: ', 'television_studio', 0.09809490272696816)
+('Top5: ', [('television_studio', 0.09809490272696816), ('horizontal bar, high bar', 0.08958505453466344), ('boxing_ring', 0.03468655594547326), ('barbell', 0.03389185658306815), ('bow', 0.028054419725343734)])
+HVC842545
+('Top1: ', 'honeycomb', 0.436942030844638)
+('Top5: ', [('honeycomb', 0.436942030844638), ('apiary, bee house', 0.05282668090101494), ('chest', 0.03562229625397467), ('flute, transverse flute', 0.033014963804124935), ('chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour', 0.026902595801125837)])
+
+
+('./con_60/E026.txt_key_importance.txt', './con_60/E026.txt_key_concept_similarity.txt')
+(5,)
+[2138  470 1598 1300 2750 1054  348 1535  644  365]
+HVC653974
+('Top1: ', 'mobile home, manufactured home', 0.665347047150135)
+('Top5: ', [('mobile home, manufactured home', 0.665347047150135), ('patio, terrace', 0.1155600775142803), ('manufactured_home', 0.05842745275346234), ('sliding door', 0.01527478834888076), ('driveway', 0.013978206501205397)])
+HVC131667
+('Top1: ', 'mobile home, manufactured home', 0.6599117437234292)
+('Top5: ', [('mobile home, manufactured home', 0.6599117437234292), ('recreational vehicle, RV, R.V.', 0.033318766697238274), ('unicycle, monocycle', 0.029672250614916826), ('bicycle-built-for-two, tandem bicycle, tandem', 0.023398934108067457), ('moving van', 0.016568934741931465)])
+HVC277268
+('Top1: ', 'mobile home, manufactured home', 0.4656803312970967)
+('Top5: ', [('mobile home, manufactured home', 0.4656803312970967), ('boathouse', 0.07794288900627404), ('beach_house', 0.024960867220832274), ('moving van', 0.02267506943069032), ('gas pump, gasoline pump, petrol pump, island dispenser', 0.021912122011595696)])
+HVC237345
+('Top1: ', 'stone wall', 0.21855961300413831)
+('Top5: ', [('stone wall', 0.21855961300413831), ('cliff, drop, drop-off', 0.12419378219318457), ('tile roof', 0.123906989483189), ('cliff dwelling', 0.04896872124994512), ('megalith, megalithic structure', 0.02835629489736951)])
+HVC939405
+('Top1: ', 'tile roof', 0.3223186410951281)
+('Top5: ', [('tile roof', 0.3223186410951281), ('marimba, xylophone', 0.15568914483401386), ('park bench', 0.13923741952053983), ('accordion, piano accordion, squeeze box', 0.03318015455927006), ('upright, upright piano', 0.02133403157286819)])
+HVC218190
+('Top1: ', 'wall clock', 0.37537067308436567)
+('Top5: ', [('wall clock', 0.37537067308436567), ('torch', 0.09527714455643119), ('analog clock', 0.07224032722693995), ('altar', 0.04791720598851415), ('vault', 0.03232238178712909)])
+HVC103308
+('Top1: ', 'mobile home, manufactured home', 0.2440905142138945)
+('Top5: ', [('mobile home, manufactured home', 0.2440905142138945), ('medicine chest, medicine cabinet', 0.052710745928162724), ('motel', 0.04668867808107858), ('residential_neighborhood', 0.029642831460746907), ('minivan', 0.027111695688786727)])
+HVC253595
+('Top1: ', 'sliding door', 0.29786844111593636)
+('Top5: ', [('sliding door', 0.29786844111593636), ('patio, terrace', 0.04817274708674914), ('bannister, banister, balustrade, balusters, handrail', 0.043033171796384426), ('turnstile', 0.0367757315237621), ('folding chair', 0.023324943171811073)])
+HVC151131
+('Top1: ', 'chain saw, chainsaw', 0.2913127087509363)
+('Top5: ', [('chain saw, chainsaw', 0.2913127087509363), ('megalith, megalithic structure', 0.15363012824931907), ('stone wall', 0.12316729996544179), ('Gordon setter', 0.044253087863499886), ('American black bear, black bear, Ursus americanus, Euarctos americanus', 0.03553486775280261)])
+HVC106336
+('Top1: ', 'mobile home, manufactured home', 0.25078803731594235)
+('Top5: ', [('mobile home, manufactured home', 0.25078803731594235), ('moped', 0.10160008081099174), ('unicycle, monocycle', 0.0967513529273371), ('tricycle, trike, velocipede', 0.043579427096119616), ('bicycle-built-for-two, tandem bicycle, tandem', 0.02628619209281169)])
+
+
+('./con_60/E027.txt_key_importance.txt', './con_60/E027.txt_key_concept_similarity.txt')
+(5,)
+[1112 1300 1054 2750  304  260  644 2793 2427 1190]
+HVC225128
+('Top1: ', 'mountain_path', 0.5319748163223267)
+('Top5: ', [('mountain_path', 0.5319748163223267), ('creek', 0.1395267428830266), ('forest_path', 0.10650989636778832), ('campsite', 0.0443772278027609), ('mountain', 0.03898749109357595)])
+HVC237345
+('Top1: ', 'stone wall', 0.21855961300413831)
+('Top5: ', [('stone wall', 0.21855961300413831), ('cliff, drop, drop-off', 0.12419378219318457), ('tile roof', 0.123906989483189), ('cliff dwelling', 0.04896872124994512), ('megalith, megalithic structure', 0.02835629489736951)])
+HVC218190
+('Top1: ', 'wall clock', 0.37537067308436567)
+('Top5: ', [('wall clock', 0.37537067308436567), ('torch', 0.09527714455643119), ('analog clock', 0.07224032722693995), ('altar', 0.04791720598851415), ('vault', 0.03232238178712909)])
+HVC939405
+('Top1: ', 'tile roof', 0.3223186410951281)
+('Top5: ', [('tile roof', 0.3223186410951281), ('marimba, xylophone', 0.15568914483401386), ('park bench', 0.13923741952053983), ('accordion, piano accordion, squeeze box', 0.03318015455927006), ('upright, upright piano', 0.02133403157286819)])
+HVC095458
+('Top1: ', 'alp', 0.316078618480923)
+('Top5: ', [('alp', 0.316078618480923), ('landfill', 0.14879300599102166), ('glacier', 0.10676746921000542), ('mountain_snowy', 0.10253659834415885), ('crevasse', 0.03938490816177301)])
+HVC085625
+('Top1: ', 'mountain tent', 0.12775477378119074)
+('Top5: ', [('mountain tent', 0.12775477378119074), ('maypole', 0.09772506421688684), ('stretcher', 0.06590288815509253), ('bow', 0.03336936405856533), ('sleeping bag', 0.03197486865549279)])
+HVC151131
+('Top1: ', 'chain saw, chainsaw', 0.2913127087509363)
+('Top5: ', [('chain saw, chainsaw', 0.2913127087509363), ('megalith, megalithic structure', 0.15363012824931907), ('stone wall', 0.12316729996544179), ('Gordon setter', 0.044253087863499886), ('American black bear, black bear, Ursus americanus, Euarctos americanus', 0.03553486775280261)])
+HVC951490
+('Top1: ', 'stone wall', 0.12043387830264389)
+('Top5: ', [('stone wall', 0.12043387830264389), ('lakeside, lakeshore', 0.03902829711458051), ('vineyard', 0.038720997000954986), ('worm fence, snake fence, snake-rail fence, Virginia fence', 0.03639469513102624), ('head cabbage', 0.031892359068718984)])
+HVC812095
+('Top1: ', 'apiary, bee house', 0.22115824488455788)
+('Top5: ', [('apiary, bee house', 0.22115824488455788), ('roof_garden', 0.12291195741772612), ('fishpond', 0.08071580502287165), ('vegetable_garden', 0.050532353584411625), ('solar dish, solar collector, solar furnace', 0.037913335868199345)])
+HVC231327
+('Top1: ', 'cliff, drop, drop-off', 0.3424102673071283)
+('Top5: ', [('cliff, drop, drop-off', 0.3424102673071283), ('rope_bridge', 0.11895440990715715), ('mountain_path', 0.07447202180112901), ('assault rifle, assault gun', 0.045827123723869635), ('trench', 0.02877275581091983)])
+
+
+('./con_60/E028.txt_key_importance.txt', './con_60/E028.txt_key_concept_similarity.txt')
+(11,)
+[1703  207 2647  859 2679 2337 2913 1549 1727 2194]
+HVC342443
+('Top1: ', 'lecture_room', 0.532680897092524)
+('Top5: ', [('lecture_room', 0.532680897092524), ('legislative_chamber', 0.10362003812288581), ('classroom', 0.08327474058214215), ('conference_center', 0.05964598332426584), ('conference_room', 0.04283398529329523)])
+HVC073968
+('Top1: ', 'lecture_room', 0.2284918650433323)
+('Top5: ', [('lecture_room', 0.2284918650433323), ('legislative_chamber', 0.09889660828258984), ('movie_theater/indoor', 0.07607238738886449), ('conference_center', 0.06574154563713819), ('conference_room', 0.06283564082198274)])
+HVC907954
+('Top1: ', 'microphone, mike', 0.4021555210153262)
+('Top5: ', [('microphone, mike', 0.4021555210153262), ('drumstick', 0.19447622696558634), ('drum, membranophone, tympan', 0.08148643995324771), ('bow', 0.029947417167325813), ('tripod', 0.028054692239190143)])
+HVC173560
+('Top1: ', 'auditorium', 0.22353593854706794)
+('Top5: ', [('auditorium', 0.22353593854706794), ('plaza', 0.09953674732617313), ('ballroom', 0.07155556394811738), ('orchestra_pit', 0.05925462036299406), ('arena/performance', 0.05112385196562466)])
+HVC915926
+('Top1: ', 'lecture_room', 0.20582961082334011)
+('Top5: ', [('lecture_room', 0.20582961082334011), ('classroom', 0.09319059634097104), ('conference_center', 0.03865352713420531), ('cinema, movie theater, movie theatre, movie house, picture palace', 0.02864489090481386), ('television, television system', 0.02414698259891149)])
+HVC778956
+('Top1: ', 'movie_theater/indoor', 0.2838658353671365)
+('Top5: ', [('movie_theater/indoor', 0.2838658353671365), ('auditorium', 0.21326424877832842), ('stage', 0.11011291387258097), ('theater curtain, theatre curtain', 0.09452906055375934), ('cinema, movie theater, movie theatre, movie house, picture palace', 0.0856335271415966)])
+HVC982922
+('Top1: ', 'conference_center', 0.20550896495357368)
+('Top5: ', [('conference_center', 0.20550896495357368), ('lecture_room', 0.18907162412023673), ('television_studio', 0.10778311558939657), ('television, television system', 0.055413690729740096), ('home theater, home theatre', 0.04994478328387997)])
+HVC254685
+('Top1: ', 'classroom', 0.14117156437192208)
+('Top5: ', [('classroom', 0.14117156437192208), ('television_studio', 0.13369037855703098), ('lecture_room', 0.12448000888793896), ('conference_center', 0.08022153224700536), ('legislative_chamber', 0.056931050159992315)])
+HVC356003
+('Top1: ', 'conference_room', 0.1438494874250975)
+('Top5: ', [('conference_room', 0.1438494874250975), ('conference_center', 0.05510462939857861), ('lecture_room', 0.05072424957662162), ('television, television system', 0.045950647254180584), ('desk', 0.04318123189633053)])
+HVC689204
+('Top1: ', 'microphone, mike', 0.2710333576473264)
+('Top5: ', [('microphone, mike', 0.2710333576473264), ('military uniform', 0.0575235176005939), ('power drill', 0.030572620895845486), ('barbershop', 0.02635978016283826), ('hand blower, blow dryer, blow drier, hair dryer, hair drier', 0.014635516579530787)])
+
+
+('./con_60/E029.txt_key_importance.txt', './con_60/E029.txt_key_concept_similarity.txt')
+(12,)
+[2360 2835 1922  447 2324 2592 2700 2260 1667 2579]
+HVC787436
+('Top1: ', 'racecourse', 0.6071365499248107)
+('Top5: ', [('racecourse', 0.6071365499248107), ('football helmet', 0.05860387687651685), ('parachute, chute', 0.03822858645044107), ('worm fence, snake fence, snake-rail fence, Virginia fence', 0.02813059019566329), ('cannon', 0.021501332464214328)])
+HVC962910
+('Top1: ', 'racer, race car, racing car', 0.4796049136668444)
+('Top5: ', [('racer, race car, racing car', 0.4796049136668444), ('sports car, sport car', 0.2223976094275713), ('convertible', 0.039512539393035694), ('car wheel', 0.03668146133422852), ('beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon', 0.029688340178108775)])
+HVC507898
+('Top1: ', 'racer, race car, racing car', 0.33506040954414534)
+('Top5: ', [('racer, race car, racing car', 0.33506040954414534), ('raceway', 0.10767197253495825), ('trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi', 0.10401104926131666), ('crash helmet', 0.06574607989750803), ('sports car, sport car', 0.056258189491927624)])
+HVC127705
+('Top1: ', 'racer, race car, racing car', 0.4023811392486095)
+('Top5: ', [('racer, race car, racing car', 0.4023811392486095), ('liner, ocean liner', 0.06672628881751734), ('cab, hack, taxi, taxicab', 0.04979254182544537), ('bullet train, bullet', 0.03855484799641999), ('go-kart', 0.031300716393161565)])
+HVC773898
+('Top1: ', 'racecourse', 0.45889353577484576)
+('Top5: ', [('racecourse', 0.45889353577484576), ('stadium/soccer', 0.0715623346482111), ('tennis ball', 0.05609967026594221), ('stadium/football', 0.03662020281565318), ('football_field', 0.025243902817791146)])
+HVC884413
+('Top1: ', 'racer, race car, racing car', 0.382525245314119)
+('Top5: ', [('racer, race car, racing car', 0.382525245314119), ('sports car, sport car', 0.17217882466502488), ('minivan', 0.09758692822759729), ('car mirror', 0.05135683166574583), ('car wheel', 0.046432930062076556)])
+HVC922165
+('Top1: ', 'racecourse', 0.3365749415170285)
+('Top5: ', [('racecourse', 0.3365749415170285), ('worm fence, snake fence, snake-rail fence, Virginia fence', 0.06232884613491478), ('arena/rodeo', 0.04180719986652548), ('seashore, coast, seacoast, sea-coast', 0.03966755205619847), ('sandbar, sand bar', 0.03704686231867527)])
+HVC742461
+('Top1: ', 'racecourse', 0.35286784264524207)
+('Top5: ', [('racecourse', 0.35286784264524207), ('scuba diver', 0.03335122266259185), ('worm fence, snake fence, snake-rail fence, Virginia fence', 0.027540405894557814), ('lakeside, lakeshore', 0.016264080212256206), ('bubble', 0.014815647084420432)])
+HVC316871
+('Top1: ', 'half track', 0.22789020296226764)
+('Top5: ', [('half track', 0.22789020296226764), ('tank, army tank, armored combat vehicle, armoured combat vehicle', 0.19104723937383167), ('lawn', 0.10208244936524591), ('yard', 0.06799568177184558), ('park', 0.033868323405371124)])
+HVC880498
+('Top1: ', 'racer, race car, racing car', 0.2147103113126962)
+('Top5: ', [('racer, race car, racing car', 0.2147103113126962), ('speedboat', 0.1030510496181835), ('go-kart', 0.050030339094291776), ('airliner', 0.04434915803098453), ('traffic light, traffic signal, stoplight', 0.038277399142836135)])
+
+
+('./con_60/E030.txt_key_importance.txt', './con_60/E030.txt_key_concept_similarity.txt')
+(5,)
+[2398 1877  247 2886  995 2854 2735  984  585 1745]
+HVC799546
+('Top1: ', 'steel drum', 0.6739659346355011)
+('Top5: ', [('steel drum', 0.6739659346355011), ('drum, membranophone, tympan', 0.13973314700082742), ('drumstick', 0.10406101819327367), ('bubble', 0.014369175166883817), ('spotlight, spot', 0.006191749666302304)])
+HVC470892
+('Top1: ', 'steel drum', 0.5333091898355633)
+('Top5: ', [('steel drum', 0.5333091898355633), ('drumstick', 0.22610789435566403), ('music_studio', 0.059101945347720175), ('drum, membranophone, tympan', 0.048604965159029234), ('physics_laboratory', 0.01724871027431618)])
+HVC084348
+('Top1: ', 'steel drum', 0.31182647070714403)
+('Top5: ', [('steel drum', 0.31182647070714403), ('bobsled, bobsleigh, bob', 0.10107507520089191), ('drum, membranophone, tympan', 0.0601104786619544), ('ping-pong ball', 0.053370652674597556), ('go-kart', 0.0427562750015308)])
+HVC976028
+('Top1: ', 'steel drum', 0.2562932247951128)
+('Top5: ', [('steel drum', 0.2562932247951128), ('turnstile', 0.11515730770719054), ('wok', 0.04120008324183721), ('restaurant, eating house, eating place, eatery', 0.02833183266422724), ('bucket, pail', 0.023604155599573656)])
+HVC206522
+('Top1: ', 'steel drum', 0.2538723298896323)
+('Top5: ', [('steel drum', 0.2538723298896323), ('beer_garden', 0.08169858604292933), ('restaurant, eating house, eating place, eatery', 0.028930213364005527), ('golfcart, golf cart', 0.027541393140221342), ('barbershop', 0.027155734091887578)])
+HVC968544
+('Top1: ', 'drumstick', 0.2982633066706482)
+('Top5: ', [('drumstick', 0.2982633066706482), ('steel drum', 0.2534733259229112), ('drum, membranophone, tympan', 0.13291855676916484), ('military uniform', 0.034155083527906215), ('motor scooter, scooter', 0.027673723821922916)])
+HVC935032
+('Top1: ', 'iron, smoothing iron', 0.21339222290613558)
+('Top5: ', [('iron, smoothing iron', 0.21339222290613558), ('buckle', 0.07867093300578659), ('joystick', 0.03769022026697815), ('car mirror', 0.03727893451122207), ('chain saw, chainsaw', 0.03542781123054875)])
+HVC204316
+('Top1: ', 'steel drum', 0.22573705170996106)
+('Top5: ', [('steel drum', 0.22573705170996106), ("potter's wheel", 0.0894865343315103), ('drum, membranophone, tympan', 0.08576708444758342), ('drumstick', 0.08321086525057371), ('ladle', 0.02795675661241731)])
+HVC145222
+('Top1: ', 'drum, membranophone, tympan', 0.2091830154398849)
+('Top5: ', [('drum, membranophone, tympan', 0.2091830154398849), ('steel drum', 0.20812523023223548), ('drumstick', 0.17067419128902656), ('espresso maker', 0.034181338101601), ('ping-pong ball', 0.021616870242155528)])
+HVC366221
+('Top1: ', 'drum, membranophone, tympan', 0.22607355266787904)
+('Top5: ', [('drum, membranophone, tympan', 0.22607355266787904), ('steel drum', 0.18525921502926698), ('drumstick', 0.17401798382019884), ('gong, tam-tam', 0.06851361007243718), ('eggnog', 0.030448682912332582)])
+
+
+('./con_60/E031.txt_key_importance.txt', './con_60/E031.txt_key_concept_similarity.txt')
+(8,)
+[2316 2826 2543 2568 2261   40 1901 2119  911 2508]
+HVC769867
+('Top1: ', 'apiary, bee house', 0.9772942086745953)
+('Top5: ', [('apiary, bee house', 0.9772942086745953), ('tree_house', 0.012313118284656338), ('birdhouse', 0.0049243364021471095), ('park bench', 0.0018516398845297344), ('rain barrel', 0.0005783364029349318)])
+HVC960101
+('Top1: ', 'apiary, bee house', 0.9763893561485486)
+('Top5: ', [('apiary, bee house', 0.9763893561485486), ('park bench', 0.005438663427880703), ('marimba, xylophone', 0.0021944739632275665), ('bulletproof vest', 0.0021187660166176034), ('orchard', 0.002094496772548078)])
+HVC861144
+('Top1: ', 'apiary, bee house', 0.8089097175230563)
+('Top5: ', [('apiary, bee house', 0.8089097175230563), ('upright, upright piano', 0.013412032567145123), ('pencil sharpener', 0.012600095192563518), ('sky', 0.010988107290506196), ('safe', 0.00942491416755257)])
+HVC873141
+('Top1: ', 'apiary, bee house', 0.7778078828578145)
+('Top5: ', [('apiary, bee house', 0.7778078828578145), ('mushroom', 0.047393094490832455), ('airship, dirigible', 0.013771263776339143), ('mailbox, letter box', 0.013402719008809072), ('slug', 0.00473548759206145)])
+HVC742792
+('Top1: ', 'apiary, bee house', 0.7575339808972449)
+('Top5: ', [('apiary, bee house', 0.7575339808972449), ('chest', 0.012080322692793499), ('envelope', 0.0102819702327709), ('marimba, xylophone', 0.009742651868204362), ('tile roof', 0.008123362782736851)])
+HVC013691
+('Top1: ', 'apiary, bee house', 0.6930313734544649)
+('Top5: ', [('apiary, bee house', 0.6930313734544649), ('crate', 0.032578513071055366), ('honeycomb', 0.014443211948875816), ('hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa', 0.012768541272640101), ('bulletproof vest', 0.012044481508804791)])
+HVC490711
+('Top1: ', 'apiary, bee house', 0.6827464752708671)
+('Top5: ', [('apiary, bee house', 0.6827464752708671), ('marimba, xylophone', 0.029344821855153008), ('honeycomb', 0.025726303026477767), ('lumbermill, sawmill', 0.021752905107717536), ('book jacket, dust cover, dust jacket, dust wrapper', 0.016917179464564863)])
+HVC638674
+('Top1: ', 'apiary, bee house', 0.677364444608299)
+('Top5: ', [('apiary, bee house', 0.677364444608299), ('web site, website, internet site, site', 0.039572123269961776), ('tub, vat', 0.019410477073783888), ('bathtub, bathing tub, bath, tub', 0.018526120559250625), ('sandbox', 0.01657398389710982)])
+HVC185171
+('Top1: ', 'apiary, bee house', 0.6718652002951678)
+('Top5: ', [('apiary, bee house', 0.6718652002951678), ('landfill', 0.03777349734574433), ('syringe', 0.029871369074124444), ('shovel', 0.01698251541786115), ('hatchet', 0.013043985620563891)])
+HVC842504
+('Top1: ', 'apiary, bee house', 0.6322830066084861)
+('Top5: ', [('apiary, bee house', 0.6322830066084861), ('stretcher', 0.03212120100606626), ('marimba, xylophone', 0.03105393873411231), ('lumbermill, sawmill', 0.019143266958417372), ('apron', 0.01606887724817625)])
+
+
+('./con_60/E032.txt_key_importance.txt', './con_60/E032.txt_key_concept_similarity.txt')
+(7,)
+[ 607  428  498  884 1868  745 2066 1271 2669  610]
+HVC147708
+('Top1: ', 'groom, bridegroom', 0.3072464494478135)
+('Top5: ', [('groom, bridegroom', 0.3072464494478135), ('hair spray', 0.11231725458942708), ('gown', 0.08513478811627942), ('wig', 0.031831922655415144), ('bow tie, bow-tie, bowtie', 0.030896422408875964)])
+HVC123647
+('Top1: ', 'groom, bridegroom', 0.3345559262101435)
+('Top5: ', [('groom, bridegroom', 0.3345559262101435), ('candle, taper, wax light', 0.106146953570553), ('ice cream, icecream', 0.05957220253120694), ('plate', 0.04402337222515295), ('restaurant, eating house, eating place, eatery', 0.03620220097622627)])
+HVC135072
+('Top1: ', 'groom, bridegroom', 0.219793269304805)
+('Top5: ', [('groom, bridegroom', 0.219793269304805), ('gown', 0.1417904460165732), ('lab coat, laboratory coat', 0.06405895250499757), ('hair spray', 0.059817388034410446), ('wig', 0.04217577916510573)])
+HVC177422
+('Top1: ', 'shower curtain', 0.38741592500503574)
+('Top5: ', [('shower curtain', 0.38741592500503574), ('prison, prison house', 0.18027724820728364), ('punching bag, punch bag, punching ball, punchball', 0.11817222778489322), ('pole', 0.07458628707957503), ('worm fence, snake fence, snake-rail fence, Virginia fence', 0.04211895854065293)])
+HVC462723
+('Top1: ', 'bathtub, bathing tub, bath, tub', 0.20663413512291479)
+('Top5: ', [('bathtub, bathing tub, bath, tub', 0.20663413512291479), ('shower curtain', 0.14656337869704747), ('refrigerator, icebox', 0.12466238469236576), ('tub, vat', 0.10217259345637238), ('washbasin, handbasin, washbowl, lavabo, wash-hand basin', 0.036803997194272325)])
+HVC162630
+('Top1: ', 'groom, bridegroom', 0.21108827959142218)
+('Top5: ', [('groom, bridegroom', 0.21108827959142218), ('torch', 0.0913988801803498), ('hair spray', 0.08561663683940424), ('maraca', 0.05457728596229572), ('brassiere, bra, bandeau', 0.030681681431815377)])
+HVC610610
+('Top1: ', 'shower curtain', 0.27984144242492864)
+('Top5: ', [('shower curtain', 0.27984144242492864), ('bubble', 0.033047054502066395), ('stretcher', 0.027084845641876396), ('scoreboard', 0.022384703908267786), ('parachute, chute', 0.020972259131662715)])
+HVC236378
+('Top1: ', 'gown', 0.10177320115723308)
+('Top5: ', [('gown', 0.10177320115723308), ('groom, bridegroom', 0.09896747099066322), ('diaper, nappy, napkin', 0.06853095163718205), ('mosquito net', 0.04892240133962001), ('cradle', 0.04542567663751966)])
+HVC913894
+('Top1: ', 'shower curtain', 0.1733534675137059)
+('Top5: ', [('shower curtain', 0.1733534675137059), ('bathtub, bathing tub, bath, tub', 0.07420435517933979), ('tub, vat', 0.06818822453675713), ('washbasin, handbasin, washbowl, lavabo, wash-hand basin', 0.024359102250815813), ('toilet tissue, toilet paper, bathroom tissue', 0.017090447987277952)])
+HVC147837
+('Top1: ', 'groom, bridegroom', 0.09052917827846779)
+('Top5: ', [('groom, bridegroom', 0.09052917827846779), ('gown', 0.08379720022706104), ('brassiere, bra, bandeau', 0.05188366068019108), ('lab coat, laboratory coat', 0.03349455689352577), ('hoopskirt, crinoline', 0.029294516557869923)])
+
+
+('./con_60/E033.txt_key_importance.txt', './con_60/E033.txt_key_concept_similarity.txt')
+(3,)
+[2685   71 2196 2689 2062  272 1585 2661 2078  617]
+HVC917945
+('Top1: ', 'car mirror', 0.785755937298139)
+('Top5: ', [('car mirror', 0.785755937298139), ('sunglass', 0.06094693408037225), ('sunglasses, dark glasses, shades', 0.02059611755248625), ('sports car, sport car', 0.01970911585764649), ("loupe, jeweler's loupe", 0.012035565979507131)])
+HVC027177
+('Top1: ', 'car mirror', 0.6585568503329629)
+('Top5: ', [('car mirror', 0.6585568503329629), ('seat belt, seatbelt', 0.16128211664526085), ('convertible', 0.05755993393004725), ('golfcart, golf cart', 0.04895291555868952), ('minivan', 0.010274778083456974)])
+HVC689284
+('Top1: ', 'sports car, sport car', 0.708880334252776)
+('Top5: ', [('sports car, sport car', 0.708880334252776), ('convertible', 0.058612962680404855), ('grille, radiator grille', 0.0453433887254077), ('racer, race car, racing car', 0.040327560419427755), ('car wheel', 0.01607154946301735)])
+HVC919014
+('Top1: ', 'sports car, sport car', 0.6700623886925834)
+('Top5: ', [('sports car, sport car', 0.6700623886925834), ('convertible', 0.23558048524760775), ('racer, race car, racing car', 0.028275129601492414), ('car wheel', 0.013298653673181044), ('auto_showroom', 0.01313824335920799)])
+HVC609182
+('Top1: ', 'freight car', 0.4034792527693623)
+('Top5: ', [('freight car', 0.4034792527693623), ('lumbermill, sawmill', 0.10189460475729513), ('passenger car, coach, carriage', 0.09617211063297353), ('worm fence, snake fence, snake-rail fence, Virginia fence', 0.035937189731547345), ('barrel, cask', 0.02459871841295223)])
+HVC086883
+('Top1: ', 'disk brake, disc brake', 0.49779205079903477)
+('Top5: ', [('disk brake, disc brake', 0.49779205079903477), ('tarantula', 0.0921490840454453), ('moped', 0.086781583467382), ('mountain bike, all-terrain bike, off-roader', 0.0668433248065412), ('thresher, thrasher, threshing machine', 0.028976758846920348)])
+HVC265684
+('Top1: ', 'car wheel', 0.2785428295894393)
+('Top5: ', [('car wheel', 0.2785428295894393), ('electric fan, blower', 0.12205070575620756), ('unicycle, monocycle', 0.08719716707017379), ('magnetic compass', 0.06393604435794734), ('disk brake, disc brake', 0.06307201590646835)])
+HVC912081
+('Top1: ', 'recreational vehicle, RV, R.V.', 0.3477438202846622)
+('Top5: ', [('recreational vehicle, RV, R.V.', 0.3477438202846622), ('trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi', 0.10925697514684626), ('limousine, limo', 0.08258608877967585), ('mobile home, manufactured home', 0.0816955767982876), ('minivan', 0.05533114778187486)])
+HVC620077
+('Top1: ', 'car mirror', 0.1975179633850025)
+('Top5: ', [('car mirror', 0.1975179633850025), ('sports car, sport car', 0.10283798752263668), ('racer, race car, racing car', 0.06712667534252938), ('car wheel', 0.05613893081236812), ('convertible', 0.0506394178697115)])
+HVC148305
+('Top1: ', 'tow truck, tow car, wrecker', 0.3195700524824447)
+('Top5: ', [('tow truck, tow car, wrecker', 0.3195700524824447), ('harvester, reaper', 0.27523392722139073), ('ambulance', 0.13952790693829542), ('lawn mower, mower', 0.02734592748436563), ('crane', 0.024390709945723284)])
+
+
+('./con_60/E034.txt_key_importance.txt', './con_60/E034.txt_key_concept_similarity.txt')
+(4,)
+[2537 1137 2439 1731 1603 1206 2262  222 2544 1311]
+HVC856780
+('Top1: ', 'music_studio', 0.19312017882161017)
+('Top5: ', [('music_studio', 0.19312017882161017), ('web site, website, internet site, site', 0.09272447271756132), ('upright, upright piano', 0.059867748603989766), ('escalator/indoor', 0.046237712507453746), ('abacus', 0.033932641450890665)])
+HVC228840
+('Top1: ', 'bassoon', 0.2702151038786709)
+('Top5: ', [('bassoon', 0.2702151038786709), ('oboe, hautboy, hautbois', 0.23522860602110815), ('sax, saxophone', 0.11739562337021983), ('window shade', 0.05708688082962216), ('cornet, horn, trumpet, trump', 0.028062597099243053)])
+HVC816366
+('Top1: ', 'upright, upright piano', 0.13565022684540848)
+('Top5: ', [('upright, upright piano', 0.13565022684540848), ('computer keyboard, keypad', 0.10850964808885188), ('typewriter keyboard', 0.09027456895304606), ('abacus', 0.05507873143804008), ('accordion, piano accordion, squeeze box', 0.0470543386497624)])
+HVC358577
+('Top1: ', 'computer keyboard, keypad', 0.09902510698884726)
+('Top5: ', [('computer keyboard, keypad', 0.09902510698884726), ('laptop, laptop computer', 0.09222812286537627), ('mouse, computer mouse', 0.06365753674586101), ('doormat, welcome mat', 0.049856101978904284), ('space heater', 0.02680352466110059)])
+HVC278843
+('Top1: ', 'lighter, light, igniter, ignitor', 0.10003681315316094)
+('Top5: ', [('lighter, light, igniter, ignitor', 0.10003681315316094), ('computer keyboard, keypad', 0.0851221876218915), ('remote control, remote', 0.04220747078458468), ('grand piano, grand', 0.03688560891896486), ('laptop, laptop computer', 0.03285921820335918)])
+HVC232577
+('Top1: ', 'computer keyboard, keypad', 0.07481883693311063)
+('Top5: ', [('computer keyboard, keypad', 0.07481883693311063), ('balance beam, beam', 0.06933675091223497), ('swimming_pool/indoor', 0.06760839342453102), ('bathing cap, swimming cap', 0.06254238680489116), ('swimming_pool/outdoor', 0.051513817894805185)])
+HVC745582
+('Top1: ', 'padlock', 0.10798932833349681)
+('Top5: ', [('padlock', 0.10798932833349681), ('hook, claw', 0.05981980414071586), ('chain', 0.03359253537928453), ('turnstile', 0.028833687930546147), ('paddlewheel, paddle wheel', 0.02791034847310527)])
+HVC077352
+('Top1: ', 'stage', 0.09419233677908778)
+('Top5: ', [('stage', 0.09419233677908778), ('music_studio', 0.07752422050823672), ('steel drum', 0.03929544139492254), ('toyshop', 0.037039867432143256), ('drumstick', 0.03289959894027561)])
+HVC862721
+('Top1: ', 'cornet, horn, trumpet, trump', 0.1581900936720524)
+('Top5: ', [('cornet, horn, trumpet, trump', 0.1581900936720524), ('trombone', 0.071364933910342), ('sax, saxophone', 0.064987463642127), ('gong, tam-tam', 0.0326343424884606), ('French horn, horn', 0.03100688187520784)])
+HVC237605
+('Top1: ', 'crossword puzzle, crossword', 0.12799914329661988)
+('Top5: ', [('crossword puzzle, crossword', 0.12799914329661988), ('rule, ruler', 0.07434625596506521), ('computer keyboard, keypad', 0.0693659856915474), ('Band Aid', 0.054768311261432244), ('syringe', 0.04502213897649199)])
+
+
+('./con_60/E035.txt_key_importance.txt', './con_60/E035.txt_key_concept_similarity.txt')
+(15,)
+[1047 2835 2054 2360 2196 2689 2592 2699 1922 2324]
+HVC217006
+('Top1: ', 'mountain bike, all-terrain bike, off-roader', 0.7109841787340966)
+('Top5: ', [('mountain bike, all-terrain bike, off-roader', 0.7109841787340966), ('bicycle-built-for-two, tandem bicycle, tandem', 0.05752433090476023), ('moped', 0.01749873737079807), ('creek', 0.016255296638174363), ('mountain_path', 0.01375082933805319)])
+HVC962910
+('Top1: ', 'racer, race car, racing car', 0.4796049136668444)
+('Top5: ', [('racer, race car, racing car', 0.4796049136668444), ('sports car, sport car', 0.2223976094275713), ('convertible', 0.039512539393035694), ('car wheel', 0.03668146133422852), ('beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon', 0.029688340178108775)])
+HVC606104
+('Top1: ', 'mountain bike, all-terrain bike, off-roader', 0.6869877597147768)
+('Top5: ', [('mountain bike, all-terrain bike, off-roader', 0.6869877597147768), ('unicycle, monocycle', 0.13650498683141035), ('bicycle-built-for-two, tandem bicycle, tandem', 0.04046323004348034), ('stretcher', 0.011335064198316435), ('crash helmet', 0.010725013258210807)])
+HVC787436
+('Top1: ', 'racecourse', 0.6071365499248107)
+('Top5: ', [('racecourse', 0.6071365499248107), ('football helmet', 0.05860387687651685), ('parachute, chute', 0.03822858645044107), ('worm fence, snake fence, snake-rail fence, Virginia fence', 0.02813059019566329), ('cannon', 0.021501332464214328)])
+HVC689284
+('Top1: ', 'sports car, sport car', 0.708880334252776)
+('Top5: ', [('sports car, sport car', 0.708880334252776), ('convertible', 0.058612962680404855), ('grille, radiator grille', 0.0453433887254077), ('racer, race car, racing car', 0.040327560419427755), ('car wheel', 0.01607154946301735)])
+HVC919014
+('Top1: ', 'sports car, sport car', 0.6700623886925834)
+('Top5: ', [('sports car, sport car', 0.6700623886925834), ('convertible', 0.23558048524760775), ('racer, race car, racing car', 0.028275129601492414), ('car wheel', 0.013298653673181044), ('auto_showroom', 0.01313824335920799)])
+HVC884413
+('Top1: ', 'racer, race car, racing car', 0.382525245314119)
+('Top5: ', [('racer, race car, racing car', 0.382525245314119), ('sports car, sport car', 0.17217882466502488), ('minivan', 0.09758692822759729), ('car mirror', 0.05135683166574583), ('car wheel', 0.046432930062076556)])
+HVC922124
+('Top1: ', 'dogsled, dog sled, dog sleigh', 0.5278151302947279)
+('Top5: ', [('dogsled, dog sled, dog sleigh', 0.5278151302947279), ('Eskimo dog, husky', 0.18535899860987565), ('Siberian husky', 0.048776098571866704), ('malamute, malemute, Alaskan malamute', 0.036033367392232514), ('alp', 0.01606915749350435)])
+HVC507898
+('Top1: ', 'racer, race car, racing car', 0.33506040954414534)
+('Top5: ', [('racer, race car, racing car', 0.33506040954414534), ('raceway', 0.10767197253495825), ('trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi', 0.10401104926131666), ('crash helmet', 0.06574607989750803), ('sports car, sport car', 0.056258189491927624)])
+HVC773898
+('Top1: ', 'racecourse', 0.45889353577484576)
+('Top5: ', [('racecourse', 0.45889353577484576), ('stadium/soccer', 0.0715623346482111), ('tennis ball', 0.05609967026594221), ('stadium/football', 0.03662020281565318), ('football_field', 0.025243902817791146)])
+
+
+('./con_60/E036.txt_key_importance.txt', './con_60/E036.txt_key_concept_similarity.txt')
+(2,)
+[518 490 878 936 576  74 565 694 695 741]
+HVC139211
+('Top1: ', 'chain saw, chainsaw', 0.8611481927542223)
+('Top5: ', [('chain saw, chainsaw', 0.8611481927542223), ('hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa', 0.02000703738176273), ('jackfruit, jak, jack', 0.011578340810215101), ('patas, hussar monkey, Erythrocebus patas', 0.010857255807208175), ('stretcher', 0.00960897884821558)])
+HVC134058
+('Top1: ', 'forest/broadleaf', 0.8521446999783318)
+('Top5: ', [('forest/broadleaf', 0.8521446999783318), ('sky', 0.017398937285179272), ('bamboo_forest', 0.014879975751318853), ('rainforest', 0.014194073247199412), ('tree_house', 0.011173456926674893)])
+HVC176009
+('Top1: ', 'bamboo_forest', 0.3417688865998858)
+('Top5: ', [('bamboo_forest', 0.3417688865998858), ('forest/broadleaf', 0.2614601932858166), ('forest_path', 0.09432822394005039), ('swamp', 0.028965665101024666), ('rainforest', 0.02446586257990515)])
+HVC193298
+('Top1: ', 'tree_house', 0.20338957952602263)
+('Top5: ', [('tree_house', 0.20338957952602263), ('forest/broadleaf', 0.16648545360658318), ('bamboo_forest', 0.06672147624097609), ('punching bag, punch bag, punching ball, punchball', 0.04628590500569393), ('swamp', 0.03583019846215999)])
+HVC144794
+('Top1: ', 'forest_path', 0.3771061080988617)
+('Top5: ', [('forest_path', 0.3771061080988617), ('rainforest', 0.2445908304003458), ('forest/broadleaf', 0.10041042563295172), ('vegetable_garden', 0.057560123132181264), ('botanical_garden', 0.037026718524735304)])
+HVC028056
+('Top1: ', 'bamboo_forest', 0.2865259811282158)
+('Top5: ', [('bamboo_forest', 0.2865259811282158), ('rainforest', 0.13570882063359022), ('vegetable_garden', 0.11960784712573513), ('tree_house', 0.09132815269986168), ('botanical_garden', 0.06348693566396832)])
+HVC143765
+('Top1: ', 'tree_farm', 0.2797360350482988)
+('Top5: ', [('tree_farm', 0.2797360350482988), ('head cabbage', 0.019818242788639095), ('orchard', 0.019171499542772762), ('solar dish, solar collector, solar furnace', 0.01772548550693224), ('landfill', 0.013695035145686736)])
+HVC156137
+('Top1: ', 'chain saw, chainsaw', 0.3806485419528061)
+('Top5: ', [('chain saw, chainsaw', 0.3806485419528061), ('skunk, polecat, wood pussy', 0.039916068388182874), ('assault rifle, assault gun', 0.023987642433605124), ('power drill', 0.022040995318775458), ('stretcher', 0.015586453835629238)])
+HVC156158
+('Top1: ', 'tree_house', 0.2395628586630611)
+('Top5: ', [('tree_house', 0.2395628586630611), ('rope_bridge', 0.18585268550497644), ('amusement_park', 0.049098676070570946), ('rainforest', 0.040475651306812375), ('suspension bridge', 0.020223488367799504)])
+HVC162571
+('Top1: ', 'forest/broadleaf', 0.2577981770956809)
+('Top5: ', [('forest/broadleaf', 0.2577981770956809), ('rainforest', 0.13362149952079588), ('forest_path', 0.07042538963041851), ('rope_bridge', 0.04214595797220581), ('swamp', 0.03736786083627163)])
+
+
+('./con_60/E037.txt_key_importance.txt', './con_60/E037.txt_key_concept_similarity.txt')
+(5,)
+[1635 2685 2065 2723   13 2412 2434 2843  236 2196]
+HVC294197
+('Top1: ', 'airliner', 0.770587332406134)
+('Top5: ', [('airliner', 0.770587332406134), ('warplane, military plane', 0.07207627872989145), ('airship, dirigible', 0.05119956745892403), ('wing', 0.041705639189425506), ('aircraft carrier, carrier, flattop, attack aircraft carrier', 0.022993534183629923)])
+HVC917945
+('Top1: ', 'car mirror', 0.785755937298139)
+('Top5: ', [('car mirror', 0.785755937298139), ('sunglass', 0.06094693408037225), ('sunglasses, dark glasses, shades', 0.02059611755248625), ('sports car, sport car', 0.01970911585764649), ("loupe, jeweler's loupe", 0.012035565979507131)])
+HVC610103
+('Top1: ', 'airliner', 0.7325209998740599)
+('Top5: ', [('airliner', 0.7325209998740599), ('wing', 0.12919081895110698), ('warplane, military plane', 0.08216329220360001), ('airship, dirigible', 0.01604167827261755), ('aircraft carrier, carrier, flattop, attack aircraft carrier', 0.014962280096145919)])
+HVC930777
+('Top1: ', 'speedboat', 0.41343975782786546)
+('Top5: ', [('speedboat', 0.41343975782786546), ('dock, dockage, docking facility', 0.24940413662248798), ('boat_deck', 0.15395206040212592), ('catamaran', 0.06698939689075607), ('trimaran', 0.04995270089548604)])
+HVC006881
+('Top1: ', 'airliner', 0.7438038686911265)
+('Top5: ', [('airliner', 0.7438038686911265), ('airship, dirigible', 0.1326881939312443), ('warplane, military plane', 0.06396979109558742), ('runway', 0.01936895473287829), ('wing', 0.01696928120024192)])
+HVC805767
+('Top1: ', 'airliner', 0.7427722545894416)
+('Top5: ', [('airliner', 0.7427722545894416), ('wing', 0.07950060343923601), ('warplane, military plane', 0.04790963065917478), ('bullet train, bullet', 0.03559773315643073), ('airship, dirigible', 0.02884193281578199)])
+HVC813428
+('Top1: ', 'dock, dockage, docking facility', 0.6714049176864174)
+('Top5: ', [('dock, dockage, docking facility', 0.6714049176864174), ('harbor', 0.1428208774328707), ('trimaran', 0.04994422025569924), ('pier', 0.042689515956337756), ('schooner', 0.013325350564590902)])
+HVC964041
+('Top1: ', 'warplane, military plane', 0.4855939201565821)
+('Top5: ', [('warplane, military plane', 0.4855939201565821), ('aircraft carrier, carrier, flattop, attack aircraft carrier', 0.14824251274564373), ('heliport', 0.04843605064644492), ('amphibian, amphibious vehicle', 0.04647214132746197), ('landing_deck', 0.037684678583086204)])
+HVC082304
+('Top1: ', 'speedboat', 0.5753637679590611)
+('Top5: ', [('speedboat', 0.5753637679590611), ('amphibian, amphibious vehicle', 0.11623774323303478), ('dock, dockage, docking facility', 0.08151276452757207), ('lakeside, lakeshore', 0.018886171230490637), ('killer whale, killer, orca, grampus, sea wolf, Orcinus orca', 0.01779826867109583)])
+HVC689284
+('Top1: ', 'sports car, sport car', 0.708880334252776)
+('Top5: ', [('sports car, sport car', 0.708880334252776), ('convertible', 0.058612962680404855), ('grille, radiator grille', 0.0453433887254077), ('racer, race car, racing car', 0.040327560419427755), ('car wheel', 0.01607154946301735)])
+
+
+('./con_60/E038.txt_key_importance.txt', './con_60/E038.txt_key_concept_similarity.txt')
+(6,)
+[ 518  694  644  809  825 2936    1 2163 1564  677]
+HVC139211
+('Top1: ', 'chain saw, chainsaw', 0.8611481927542223)
+('Top5: ', [('chain saw, chainsaw', 0.8611481927542223), ('hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa', 0.02000703738176273), ('jackfruit, jak, jack', 0.011578340810215101), ('patas, hussar monkey, Erythrocebus patas', 0.010857255807208175), ('stretcher', 0.00960897884821558)])
+HVC156137
+('Top1: ', 'chain saw, chainsaw', 0.3806485419528061)
+('Top5: ', [('chain saw, chainsaw', 0.3806485419528061), ('skunk, polecat, wood pussy', 0.039916068388182874), ('assault rifle, assault gun', 0.023987642433605124), ('power drill', 0.022040995318775458), ('stretcher', 0.015586453835629238)])
+HVC151131
+('Top1: ', 'chain saw, chainsaw', 0.2913127087509363)
+('Top5: ', [('chain saw, chainsaw', 0.2913127087509363), ('megalith, megalithic structure', 0.15363012824931907), ('stone wall', 0.12316729996544179), ('Gordon setter', 0.044253087863499886), ('American black bear, black bear, Ursus americanus, Euarctos americanus', 0.03553486775280261)])
+HVC167938
+('Top1: ', 'American black bear, black bear, Ursus americanus, Euarctos americanus', 0.12278704362761346)
+('Top5: ', [('American black bear, black bear, Ursus americanus, Euarctos americanus', 0.12278704362761346), ('chain saw, chainsaw', 0.1173397425374181), ('tusker', 0.062024286440767656), ('megalith, megalithic structure', 0.05183481176506272), ('bluetick', 0.04804162145737791)])
+HVC168354
+('Top1: ', 'chain saw, chainsaw', 0.22368362316718468)
+('Top5: ', [('chain saw, chainsaw', 0.22368362316718468), ('hatchet', 0.09921527883181205), ('shovel', 0.05327895197730798), ('hammer', 0.03926648615071407), ('power drill', 0.031748319116349406)])
+HVC990242
+('Top1: ', 'Saluki, gazelle hound', 0.1811391223454848)
+('Top5: ', [('Saluki, gazelle hound', 0.1811391223454848), ('EntleBucher', 0.07254993408181083), ('bloodhound, sleuthhound', 0.06589018534092854), ('Staffordshire bullterrier, Staffordshire bull terrier', 0.05011780346588542), ('malinois', 0.03156197517334173)])
+HVC000694
+('Top1: ', 'American black bear, black bear, Ursus americanus, Euarctos americanus', 0.09553634569213804)
+('Top5: ', [('American black bear, black bear, Ursus americanus, Euarctos americanus', 0.09553634569213804), ('mink', 0.04202313743905203), ('wild boar, boar, Sus scrofa', 0.03948749860113215), ('hog, pig, grunter, squealer, Sus scrofa', 0.031569147952783774), ('platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus', 0.024990135619494442)])
+HVC673058
+('Top1: ', 'African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus', 0.09831723739606221)
+('Top5: ', [('African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus', 0.09831723739606221), ('maze, labyrinth', 0.0428560876847572), ('hyena, hyaena', 0.029614632565327967), ('Saluki, gazelle hound', 0.0225948017747165), ('baboon', 0.019466048980452674)])
+HVC257327
+('Top1: ', 'Saluki, gazelle hound', 0.14131793676382534)
+('Top5: ', [('Saluki, gazelle hound', 0.14131793676382534), ('Afghan hound, Afghan', 0.13261406709841156), ('English foxhound', 0.06119243815362989), ('Sussex spaniel', 0.03924175188700911), ('golfcart, golf cart', 0.03920620240949054)])
+HVC153730
+('Top1: ', 'chain saw, chainsaw', 0.10181131508400429)
+('Top5: ', [('chain saw, chainsaw', 0.10181131508400429), ('mountain bike, all-terrain bike, off-roader', 0.06176852027046342), ("spider web, spider's web", 0.0363279738205636), ('cliff, drop, drop-off', 0.023044816282112048), ('black grouse', 0.022402550473425892)])
+
+
+('./con_60/E039.txt_key_importance.txt', './con_60/E039.txt_key_concept_similarity.txt')
+(2,)
+[2299 2484  198  277 1510   61  535  840 1183  187]
+HVC762491
+('Top1: ', 'restaurant, eating house, eating place, eatery', 0.5465892715190973)
+('Top5: ', [('restaurant, eating house, eating place, eatery', 0.5465892715190973), ('pub/indoor', 0.035115901459983986), ('tobacco shop, tobacconist shop, tobacconist', 0.02149082495903897), ('restaurant', 0.019335780140967405), ('food_court', 0.01854550096698093)])
+HVC833145
+('Top1: ', 'restaurant, eating house, eating place, eatery', 0.5498702921663764)
+('Top5: ', [('restaurant, eating house, eating place, eatery', 0.5498702921663764), ('pub/indoor', 0.03005949977277537), ('tobacco shop, tobacconist shop, tobacconist', 0.02759394178077667), ('restaurant', 0.016410773761438985), ('bar', 0.01544458749408634)])
+HVC072539
+('Top1: ', 'beer_garden', 0.447889191955328)
+('Top5: ', [('beer_garden', 0.447889191955328), ('restaurant_patio', 0.13031385842710733), ('restaurant', 0.045472285561263565), ('food_court', 0.045366000905632975), ('coffee_shop', 0.0390182198304683)])
+HVC087479
+('Top1: ', 'beer glass', 0.6120259885986646)
+('Top5: ', [('beer glass', 0.6120259885986646), ('espresso', 0.12385119947915275), ('goblet', 0.06962241946409146), ('red wine', 0.05543572579820951), ('cocktail shaker', 0.02482908374319474)])
+HVC251846
+('Top1: ', 'restaurant, eating house, eating place, eatery', 0.45432361975933117)
+('Top5: ', [('restaurant, eating house, eating place, eatery', 0.45432361975933117), ('barbershop', 0.28845795679704417), ('cinema, movie theater, movie theatre, movie house, picture palace', 0.03766026250862827), ('barber chair', 0.03351725270788718), ('television, television system', 0.009776023684978662)])
+HVC022765
+('Top1: ', 'restaurant, eating house, eating place, eatery', 0.4545185110764578)
+('Top5: ', [('restaurant, eating house, eating place, eatery', 0.4545185110764578), ('grand piano, grand', 0.18801150975559722), ('barbershop', 0.0743518250019406), ('upright, upright piano', 0.03729535715683596), ('television, television system', 0.022884404752403498)])
+HVC141467
+('Top1: ', 'restaurant, eating house, eating place, eatery', 0.2909505474195635)
+('Top5: ', [('restaurant, eating house, eating place, eatery', 0.2909505474195635), ('barbershop', 0.03032433656111467), ('wok', 0.020189894493971502), ('bakery, bakeshop, bakehouse', 0.019096964241480937), ('sushi_bar', 0.015057088317800477)])
+HVC169863
+('Top1: ', 'beer_garden', 0.30753620544617827)
+('Top5: ', [('beer_garden', 0.30753620544617827), ('bamboo_forest', 0.08378515135899017), ('jewelry_shop', 0.048670515132305976), ('vineyard', 0.038769556590440596), ('banquet_hall', 0.03718350173651495)])
+HVC231277
+('Top1: ', 'restaurant, eating house, eating place, eatery', 0.2436034195295808)
+('Top5: ', [('restaurant, eating house, eating place, eatery', 0.2436034195295808), ('turnstile', 0.1465056131904324), ('bobsled, bobsleigh, bob', 0.055542495782272175), ('food_court', 0.040724641538587), ('grocery store, grocery, food market, market', 0.03708168012851205)])
+HVC070589
+('Top1: ', 'restaurant, eating house, eating place, eatery', 0.24943855439347248)
+('Top5: ', [('restaurant, eating house, eating place, eatery', 0.24943855439347248), ('red wine', 0.026653174819700694), ('hair spray', 0.023710949303306365), ('cleaver, meat cleaver, chopper', 0.021999814914091042), ('barbershop', 0.019470017493909433)])
+
+
+('./con_60/E040.txt_key_importance.txt', './con_60/E040.txt_key_concept_similarity.txt')
+(10,)
+[ 404  938 2346 1061 1062 2172 2844 1957 2510 2737]
+HVC118964
+('Top1: ', 'acoustic guitar', 0.7276970301480854)
+('Top5: ', [('acoustic guitar', 0.7276970301480854), ('electric guitar', 0.24244727533968055), ('banjo', 0.01716135983930572), ('pick, plectrum, plectron', 0.0061508111008579894), ('sock', 0.0014095176387961734)])
+HVC194680
+('Top1: ', 'acoustic guitar', 0.7996231772197301)
+('Top5: ', [('acoustic guitar', 0.7996231772197301), ('electric guitar', 0.07491789855172529), ('cello, violoncello', 0.02793051790110493), ('pick, plectrum, plectron', 0.02281016870812677), ('violin, fiddle', 0.014534610584515202)])
+HVC784239
+('Top1: ', 'acoustic guitar', 0.7966662021974723)
+('Top5: ', [('acoustic guitar', 0.7966662021974723), ('electric guitar', 0.10839788311083491), ('pick, plectrum, plectron', 0.036601261732478935), ('banjo', 0.014341171299262594), ('violin, fiddle', 0.005219358875062123)])
+HVC220072
+('Top1: ', 'electric guitar', 0.9098634617669242)
+('Top5: ', [('electric guitar', 0.9098634617669242), ('acoustic guitar', 0.0428894689639232), ('banjo', 0.015496067259144703), ('flute, transverse flute', 0.003870167437292236), ('drumstick', 0.0024892320339858997)])
+HVC220076
+('Top1: ', 'cello, violoncello', 0.9738830507442515)
+('Top5: ', [('cello, violoncello', 0.9738830507442515), ('violin, fiddle', 0.02469371129528329), ('flute, transverse flute', 0.00033597752497527874), ('bassoon', 0.00025293149674839255), ('harmonica, mouth organ, harp, mouth harp', 0.0001763204204642397)])
+HVC678038
+('Top1: ', 'acoustic guitar', 0.6982329574586955)
+('Top5: ', [('acoustic guitar', 0.6982329574586955), ('electric guitar', 0.09641688401714656), ('cello, violoncello', 0.03011049477778294), ('violin, fiddle', 0.026337793462595942), ('pick, plectrum, plectron', 0.013699639641740561)])
+HVC964061
+('Top1: ', 'acoustic guitar', 0.5557704967391377)
+('Top5: ', [('acoustic guitar', 0.5557704967391377), ('electric guitar', 0.1538005329883594), ('cello, violoncello', 0.043389810407060685), ('banjo', 0.04063316853914284), ('harmonica, mouth organ, harp, mouth harp', 0.035287478818337166)])
+HVC535354
+('Top1: ', 'acoustic guitar', 0.777777202309101)
+('Top5: ', [('acoustic guitar', 0.777777202309101), ('violin, fiddle', 0.021866285645332287), ('electric guitar', 0.02108636013383927), ('bulletproof vest', 0.012977161498529963), ('Windsor tie', 0.012915959399499652)])
+HVC843660
+('Top1: ', 'electric guitar', 0.7095476261378293)
+('Top5: ', [('electric guitar', 0.7095476261378293), ('acoustic guitar', 0.14517816303791453), ('pick, plectrum, plectron', 0.016851303859401597), ('panpipe, pandean pipe, syrinx', 0.01256095103624112), ('banjo', 0.011197899711152452)])
+HVC935844
+('Top1: ', 'electric guitar', 0.6660659412321236)
+('Top5: ', [('electric guitar', 0.6660659412321236), ('acoustic guitar', 0.18740940496458539), ('pick, plectrum, plectron', 0.06355539960454085), ('banjo', 0.013204667151772551), ('radio, wireless', 0.006565245603951553)])
+
+
+(20, 2991)
