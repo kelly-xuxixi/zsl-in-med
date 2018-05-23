@@ -12,3 +12,6 @@ y_rank = np.transpose(y_rank)
 print(np.isnan(y_true).any(), np.isnan(y_rank).any())
 print(y_true.shape, y_rank.shape)
 print(average_precision_score(y_true, y_rank))
+for i in range(20):
+    print(i)
+    print(average_precision_score(y_true[:, i], y_rank[:, i]))
